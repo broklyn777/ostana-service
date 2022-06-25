@@ -5,9 +5,9 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className=''>
 
-            <nav className="w-full fixed top-0 bg-gray-200 z-10 dark:bg-slate-900">
+            <nav className="w-full fixed top-0 bg-red-200 z-50 dark:bg-slate-900">
                 <div className="container mx-auto py-5 flex items-center justify-between">
 
                     <div>

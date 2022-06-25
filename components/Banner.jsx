@@ -8,16 +8,17 @@ function Banner() {
   
   
   <>
-  <div className="">
+  <div className="h-1/2">
     {/* <div className=" text-white " style={backgroundImageStyle}> */}
     <div className="absolute top-0 left-0 -z-10 h-[100vh] w-screen">
       <Image
     src="/img/roj-klipp.jpg"
     className=" -z-[1001] "
     alt="berg"
-
-layout="fill"
+    priority
+    layout="fill"
     objectFit="cover"
+    
   
     />
 

@@ -5,7 +5,7 @@ import Banner from '../components/Banner'
 import Layout from '../components/Layout';
 import SectionContainer from '../components/SectionContainer';
 import { GiRake } from 'react-icons/gi';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaAngleRight } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 
@@ -38,37 +38,38 @@ export default function Home() {
 
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tradgard'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Trädgård </span> <span className="text-gray-700 font-thin text-lg ml-4"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center flex:none"> <GiRake /> </div> <span className="flex-1"> Trädgård </span> <span className="text-gray-700 font-thin text-xl ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/stadning'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center flex ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <div className="flex"><span> IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span></div>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
+
             <li className=" border-b-2 border-green-200 pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>

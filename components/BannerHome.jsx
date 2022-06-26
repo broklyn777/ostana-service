@@ -12,7 +12,7 @@ function BannerHome() {
    
   <div className="  ">
     {/* <div className=" text-white " style={backgroundImageStyle}> */}
-    <div className="absolute top-0 bottom-0 -z-10 mx-auto max-w-[1920px] w-screen">
+    <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
       <Image
     src="/img/roj-klipp.jpg"
     className=" -z-[1001] "

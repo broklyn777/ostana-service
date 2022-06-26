@@ -18,7 +18,7 @@ export default function Home() {
 
       </div>
       <SectionContainer>
-        <section>
+        <section className="">
           <div className=" grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
             <h2 className="  text-3xl md:text-5xl">
               Vad vill du ha hjälp med?
@@ -38,37 +38,37 @@ export default function Home() {
 
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tradgard'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Trädgård </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Trädgård </span> <span className="text-gray-700 font-thin text-lg ml-4"> <FaArrowRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/stadning'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Städning </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Seniorhjälp </span> <span className="text-gray-700 text-lg ml-40">  <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaArrowRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-green-200 pb-2 items-center flex ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <div className="flex"><span> IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span></div>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-green-200 pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Övrigt </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaArrowRight /> </span>
               </a>
             </Link>
             </li>

@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
 
     <>
-      <div className="mx-auto max-w-[1920px] h-[340vh] " >
+      <div className="mx-auto max-w-[1920px] " >
 
         <Navbar />
 

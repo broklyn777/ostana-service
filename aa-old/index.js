@@ -1,18 +1,22 @@
-import Link from 'next/link'
-import { FaAngleRight } from 'react-icons/fa'
-import { GiRake } from 'react-icons/gi'
+import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link';
 import Banner from '../components/Banner'
-import BannerHome from '../components/BannerHome'
-import SectionContainer from '../components/SectionContainer'
+import Layout from '../components/Layout';
+import SectionContainer from '../components/SectionContainer';
+import { GiRake } from 'react-icons/gi';
+import { FaAngleRight } from 'react-icons/fa';
+import { IconContext } from "react-icons";
 
-const Home = () => {
+
+export default function Home() {
   return (
     <>
-      <div className="-mt-20 md:mt-0 bg-gradient-to-r from-black px-8  text-white py-16 relative">
-        <BannerHome />
+
+      <div className="-mt-20 md:mt-0 bg-gradient-to-r from-black px-8 h-[70vh] text-white py-16 relative">
+        <Banner />
+
       </div>
-
-
       <SectionContainer>
         <section className="">
           <div className=" grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
@@ -93,9 +97,11 @@ const Home = () => {
           </div> */}
 
         </section>
+      </SectionContainer>
 
-      </SectionContainer></>
-  )
+
+
+    </>
+
+  );
 }
-
-export default Home

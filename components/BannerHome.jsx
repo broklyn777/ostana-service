@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaAngleRight, FaRegCheckCircle, FaRegCheckSquare } from "react-icons/fa";
-import { GiRake } from "react-icons/gi";
+import { FaRegCheckCircle } from "react-icons/fa";
 
 
-function Banner() {
+function BannerHome() {
   return (
   
   
   
   <>
+   
   <div className="  ">
     {/* <div className=" text-white " style={backgroundImageStyle}> */}
-    <div className="absolute top-0 -z-10 mx-auto max-w-[1920px] h-[70vh] w-screen">
+    <div className="absolute top-0 bottom-0 -z-10 mx-auto max-w-[1920px] w-screen">
       <Image
-    src="/img/house_1920.jpg"
+    src="/img/roj-klipp.jpg"
     className=" -z-[1001] "
     alt="berg"
     priority
@@ -33,16 +33,14 @@ function Banner() {
     
       <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
      
-        <h1 className=" text-4xl md:text-6xl md:font-bold">
+        <h1 className=" text-4xl md:text-6xl md:font-semibold">
           Välkommen till Östanå FixTrix! 
         </h1>
    
         <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-48">
           <Link href="/kontakt">Bli uppringd</Link>  
         </button>
-  
       </div>
-   
 
      <ul className="leading-7">
 <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Halva priset med rutavdrag</span> </li>
@@ -52,16 +50,17 @@ function Banner() {
 
 
      </ul>
-      </div>
-      
+    </div>
+
+ 
    
   </div>
   
-  
+
     
     </>
-    // </div>
+    
   );
 }
 
-export default Banner
+export default BannerHome

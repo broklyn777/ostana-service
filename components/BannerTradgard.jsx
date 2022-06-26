@@ -12,7 +12,7 @@ function BannerTradgard() {
    
   <div className="  ">
     {/* <div className=" text-white " style={backgroundImageStyle}> */}
-    <div className="absolute top-0 -z-10 mx-auto max-w-[1920px] h-[70vh] w-screen">
+    <div className="absolute top-0 bottom-0 -z-10 mx-auto max-w-[1920px] w-screen">
       <Image
     src="/img/house_1920.jpg"
     className=" -z-[1001] "

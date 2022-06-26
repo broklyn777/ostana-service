@@ -5,7 +5,7 @@ import Banner from '../components/Banner'
 import Layout from '../components/Layout';
 import SectionContainer from '../components/SectionContainer';
 import { GiRake } from 'react-icons/gi';
-import { FaFolder } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 
@@ -26,45 +26,60 @@ export default function Home() {
             <div>
               <p className=" border-2 rounded-xl border-green-600 mx-auto max-w-[72px]"></p>
             </div>
-            <div className="max-w-2xl mx-auto text-center">
+            <div className=" mx-auto text-center">
               <p >Ibland är måstena för många och timmarna för få. Därför finns Östanå. Vi hjälper dig med allt ifrån städning till enklare hantverk!</p>
             </div>
           </div>
 
-          <ul className=" flex flex-col divide-y-2 text-2xl  space-y-8 ">
-            <li className="inline mr-8 hover:text-green-700   ">
-              <Link href="/it-data">IT & Data</Link>
-            </li>
+          <ul className=" grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8   ">
 
-            <li className="inline mr-8 hover:text-green-700  ">
-              <Link href="/stadning">
-                <a>Städning</a>
-              </Link>
-            </li>
-            <li className="">   <Link href='/tjanster'>
+
+
+
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tradgard'>
               <a className='flex items-center'>
-                <div className=""> <GiRake /> </div> <span> Övrigt</span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Trädgård </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
               </a>
-            </Link></li>
-
-            <li className="inline mr-8 hover:text-green-700  ">
-              <Link href="/tradgard">
-                <a>Trädgård</a>
-              </Link>
+            </Link>
+            </li>
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/stadning'>
+              <a className='flex items-center'>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Städning </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+              </a>
+            </Link>
+            </li>
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+              <a className='flex items-center'>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Seniorhjälp </span> <span className="text-gray-700 text-lg ml-40">  <FaArrowRight /> </span>
+              </a>
+            </Link>
+            </li>
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+              <a className='flex items-center'>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+              </a>
+            </Link>
+            </li>
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+              <a className='flex items-center'>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+              </a>
+            </Link>
+            </li>
+            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+              <a className='flex items-center'>
+                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span> Övrigt </span> <span className="text-gray-700 text-lg ml-40"> <FaArrowRight /> </span>
+              </a>
+            </Link>
             </li>
 
-            <li className="inline md:mr-8 hover:text-green-700  ">
-              <Link href="/om">
-                <a>Om oss</a>
-              </Link>
-            </li>
 
 
           </ul>
 
 
 
-          <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 py-6 px-8 ">
+          {/* <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 py-6 px-8 ">
             <div>
               <h3 className="text-2xl font-normal mb-2">Seniorhjälp?</h3>
               <p className="text-lg">
@@ -78,7 +93,7 @@ export default function Home() {
                 Klippa gräs, rensa rabatter, kratta löv och beskära fruktträd? Självklart, det fixar vi! Boka ett engångsuppdrag eller prenumerera på vår trädgårdshjälp under hela säsongen.
               </p>
             </div>
-          </div>
+          </div> */}
 
         </section>
       </SectionContainer>

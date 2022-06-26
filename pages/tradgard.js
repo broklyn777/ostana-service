@@ -1,8 +1,17 @@
 import React from 'react'
+import SectionContainer from '../components/SectionContainer'
 
 const tradgard = () => {
     return (
-        <div>tradgard</div>
+        <SectionContainer>
+            <div className="">
+
+                <div >tradgard</div>
+
+
+            </div>
+
+        </SectionContainer>
     )
 }
 

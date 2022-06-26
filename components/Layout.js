@@ -1,17 +1,22 @@
 
 // import Footer from "./Footer";
+
 import Navbar from "./Navbar";
-import Navbar2 from "./Navbar2";
+
 
 const Layout = ({ children }) => {
   return (
-    <div className="">
-      <>
-        <Navbar2 />
+
+    <>
+      <div className="mx-auto max-w-[1920px] h-[340vh] " >
+
+        <Navbar />
+
         {children}
         {/* <Footer /> */}
-      </>
-    </div>
+      </div>
+    </>
+
   );
 };
 

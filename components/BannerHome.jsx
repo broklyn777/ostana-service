@@ -29,23 +29,23 @@ function BannerHome() {
     
  
 
- <div className=" text-white px-8 py-16 mt-7 -z-20">
+ <div className="text-center md:text-left text-white px-8 py-16 mt-7 -z-20">
     
       <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
      
-        <h1 className=" text-4xl md:text-6xl md:font-semibold">
+        <h1 className=" text-4xl md:text-6xl md:font-normal">
           Välkommen till Östanå FixTrix! 
         </h1>
    
-        <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-48">
+        <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-full md:w-48 ">
           <Link href="/kontakt">Bli uppringd</Link>  
         </button>
       </div>
 
-     <ul className="leading-7">
-<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Halva priset med RUT-avdrag</span> </li>
-<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Alltid försäkrad</span> </li>
-<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Lokalt baserade </span> </li>
+     <ul className="font-thin  leading-7">
+<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> Halva priset med RUT-avdrag</li>
+<li className="flex items-center  mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Alltid försäkrad</span> </li>
+<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span > Lokalt baserade </span> </li>
 
 
 

@@ -15,55 +15,55 @@ const Home = () => {
 
       <SectionContainer>
         <section className="">
-          <div className=" grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
+          <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
             <h2 className="  text-3xl md:text-5xl">
               Vad vill du ha hjälp med?
             </h2>
             <div>
-              <p className=" border-2 rounded-xl border-green-600 mx-auto max-w-[72px]"></p>
+              <p className=" border-[1px] rounded-xl border-green-700 mx-auto max-w-[72px]"></p>
             </div>
-            <div className=" mx-auto text-center">
+            <div className=" mx-auto text-center max-w-2xl ">
               <p >Ibland är måstena för många och timmarna för få. Därför finns Östanå. Vi hjälper dig med allt ifrån städning till enklare hantverk!</p>
             </div>
           </div>
 
-          <ul className=" grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8   ">
+          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400]   ">
 
 
 
 
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tradgard'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgard'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center flex:none"> <GiRake /> </div> <span className="flex-1"> Trädgård </span> <span className="text-gray-700 font-thin text-xl ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/stadning'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/stadning'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-green-200 pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
 
-            <li className=" border-b-2 border-green-200 pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>

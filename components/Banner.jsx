@@ -29,7 +29,7 @@ function Banner() {
     
  
 
- <div className=" text-white px-8 py-16 mt-7 -z-20">
+ <div className=" text-white  px-8 py-16 mt-7 -z-20">
     
       <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
      

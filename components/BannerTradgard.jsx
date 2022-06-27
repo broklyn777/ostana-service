@@ -33,7 +33,7 @@ function BannerTradgard() {
     
       <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
      
-        <h1 className=" text-4xl md:text-6xl md:font-semibold">
+        <h1 className=" text-4xl md:text-6xl md:font-normal">
           Behöver du trädgårdshjälp? 
         </h1>
    

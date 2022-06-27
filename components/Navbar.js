@@ -4,13 +4,13 @@ import { useState } from "react";
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className=' w-screen max-w-[1920px] h-20 md:bg-gray-200 bg-black/0 text-white md:text-gray-700 flex items-center justify-between text-2xl py-0    '>
+        <div className=' w-screen max-w-[1920px] h-20 md:bg-gray-light bg-black/0 text-white md:text-gray-text flex items-center justify-between text-2xl py-0    '>
             <div className="px-5 z-10">
                 <Link href="/">Östanå</Link>
             </div>
 
             <ul className=" text-base md:text-lg hidden  md:block ">
-                <li className="inline mr-8 hover:text-green-700   ">
+                <li className="inline mr-8 hover:text-green-700 ">
                     <Link href="/it-data">IT & Data</Link>
                 </li>
 
@@ -30,11 +30,7 @@ const Navbar = () => {
                         <a>Om oss</a>
                     </Link>
                 </li>
-                <li className="inline mr-8 md:mr-0 hover:text-green-700  ">
-                    <Link href="/pixagami">
-                        <a>Pixa</a>
-                    </Link>
-                </li>
+
 
             </ul>
             {/* hamburger */}

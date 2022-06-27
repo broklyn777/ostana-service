@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
-import { GiBeachBucket, GiGardeningShears, GiRake } from 'react-icons/gi'
+import { GiBeachBucket, GiClothesline, GiGardeningShears, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
 import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import Banner from '../components/Banner'
 import BannerHome from '../components/BannerHome'
@@ -41,32 +41,32 @@ const Home = () => {
             </li>
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/stadning'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiVacuumCleaner /> </div> <span className="flex-1" > Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiClothesline /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiHammerNails /> </div> <span className="flex-1" > Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiVibratingSmartphone /> </div> <span className="flex-1" > IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
 
             <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiRake /> </div> <span className="flex-1" > Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiWalk /> </div> <span className="flex-1" > Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
@@ -88,7 +88,7 @@ const Home = () => {
           <section className=" max-w-[400px] sm:max-w-none">
             <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
               <h2 className=" text-center py-10 text-3xl lg:text-5xl">
-                Varför Östanå Hemservice?
+                Varför Östanå Hemservice  ?
 
               </h2>
               <div>

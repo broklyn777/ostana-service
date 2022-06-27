@@ -1,9 +1,11 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
 import { GiBeachBucket, GiClothesline, GiGardeningShears, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
 import { HiOutlineChatAlt2 } from 'react-icons/hi'
-import Banner from '../components/Banner'
+
 import BannerHome from '../components/BannerHome'
+import DropHome from '../components/DropHome'
 import SectionContainer from '../components/SectionContainer'
 
 const Home = () => {
@@ -28,7 +30,7 @@ const Home = () => {
             </div>
           </div>
 
-          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400]   ">
+          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] px-8  ">
 
 
 
@@ -88,7 +90,7 @@ const Home = () => {
           <section className=" max-w-[400px] sm:max-w-none">
             <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
               <h2 className=" text-center py-10 text-3xl lg:text-5xl">
-                Varför Östanå Hemservice  ?
+                Varför Östanå Hemservice?
 
               </h2>
               <div>
@@ -134,8 +136,31 @@ const Home = () => {
           </section>
 
         </SectionContainer>
+      </div>
+      <div className=" mx-auto -z-10 max-w-[1920px] ">
+        <Image
+          src="/img/blomma003.png"
+          className=" "
+          alt=""
+          height={1099}
+          width={1914}
+
+
+
+
+        />
 
       </div>
+      <div className="py-2 -mt-2 relative bg-pink-bg ">
+        <div className="px-8">
+          <DropHome />
+        </div>
+      </div>
+
+
+
+
+
 
 
     </>

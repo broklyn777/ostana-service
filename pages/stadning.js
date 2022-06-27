@@ -95,19 +95,19 @@ const stadning = () => {
 
             </div>
 
-            {/* *************** Section 2 PINK ****************************/}
+            {/* *************** Section 3 PINK ****************************/}
 
-            <div className="py-2   bg-pink-bg">
+            <div className="py-2 relative  bg-pink-bg">
                 <SectionContainer>
 
-                    <section className=" max-w-[400px]">
+                    <section className=" max-w-[400px] sm:max-w-none">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
                             <h2 className=" text-center py-2 text-3xl md:text-5xl">
                                 3 steg till en enklare vardag
 
                             </h2>
                             <div>
-                                <p className=" border-[1px] rounded-xl border-green-700 mx-auto max-w-[72px]"></p>
+                                <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
                             </div>
 
                             {/* flexbox LIST ****************/}

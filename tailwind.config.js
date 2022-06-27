@@ -19,6 +19,7 @@ module.exports = {
       'orange-600': '#ea580c',
       'green-700': '#15803d',
       'green-bg': '#99cccc',
+      'green-bg-soft': '#B7DBDB',
       'pink-bg': '#cc99cc',
       'pink-bg-soft': '#dbb7db',
       'green-50': '#f0fdf4',

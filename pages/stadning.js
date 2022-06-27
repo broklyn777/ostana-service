@@ -66,12 +66,12 @@ const stadning = () => {
 
 
 
-            <div className="py-2  h-96 bg-gray-light">
+            <div className="py-2   bg-gray-light">
                 <SectionContainer>
 
                     <section className="">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-                            <h2 className="  text-3xl md:text-5xl">
+                            <h2 className="pt-10   text-3xl md:text-5xl">
                                 Vad ingår i vår städning?
 
                             </h2>
@@ -102,7 +102,7 @@ const stadning = () => {
 
                     <section className=" max-w-[400px] sm:max-w-none">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
-                            <h2 className=" text-center py-2 text-3xl md:text-5xl">
+                            <h2 className=" text-center pt-10  text-3xl md:text-5xl">
                                 3 steg till en enklare vardag
 
                             </h2>

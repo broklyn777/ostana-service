@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
-import { GiRake } from 'react-icons/gi'
+import { GiBeachBucket, GiGardeningShears, GiRake } from 'react-icons/gi'
+import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import Banner from '../components/Banner'
 import BannerHome from '../components/BannerHome'
 import SectionContainer from '../components/SectionContainer'
@@ -16,7 +17,7 @@ const Home = () => {
       <SectionContainer>
         <section className="">
           <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-            <h2 className="  text-3xl md:text-5xl">
+            <h2 className="pt-10  text-3xl md:text-5xl">
               Vad vill du ha hjälp med?
             </h2>
             <div>
@@ -75,26 +76,69 @@ const Home = () => {
           </ul>
 
 
-
-          {/* <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 py-6 px-8 ">
-            <div>
-              <h3 className="text-2xl font-normal mb-2">Seniorhjälp?</h3>
-              <p className="text-lg">
-                Det kan vara stort som smått, som att sy en knapp och sortera bokhyllan till att laga alla mål mat eller vara en ledande hand på promenaden i parken.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-normal mb-2">Våra trädgårdstjänster</h3>
-              <p className="text-lg">
-                Klippa gräs, rensa rabatter, kratta löv och beskära fruktträd? Självklart, det fixar vi! Boka ett engångsuppdrag eller prenumerera på vår trädgårdshjälp under hela säsongen.
-              </p>
-            </div>
-          </div> */}
-
         </section>
 
-      </SectionContainer></>
+      </SectionContainer>
+
+      {/* *************** Section 3 PINK ****************************/}
+
+      <div className="py-2 relative bg-blue-bg ">
+        <SectionContainer>
+
+          <section className=" max-w-[400px] sm:max-w-none">
+            <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
+              <h2 className=" text-center py-10 text-3xl lg:text-5xl">
+                Varför Östanå Hemservice?
+
+              </h2>
+              <div>
+                <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
+              </div>
+
+              {/* flexbox LIST ****************/}
+              <ul className="flex flex-col md:flex-row items-center md:justify-center md:items-start md:mt-0 md:ml-10 ">
+                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
+                  <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
+                  ><HiOutlineChatAlt2 />   </div>
+                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Samtal</h3>
+                  <div className=" leading-5 text-base w-full m-0 ">
+                    <p>Berätta för oss vad du vill ha hjälp med så återkommer vi till dig med ett prisförslag.</p>
+                  </div>
+                </li>
+                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
+                  <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
+                  ><GiBeachBucket />   </div>
+                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Arbetsplan</h3>
+                  <div className=" leading-5 text-base w-full m-0 ">
+                    <p>Tillsammans kommer vi överens om skötselplan och tidsåtgång, så att vi kan möta dina önskemål på bästa sätt.</p>
+                  </div>
+                </li>
+                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
+                  <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
+                  ><GiGardeningShears />   </div>
+                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Kontinuerligt underhåll</h3>
+                  <div className=" leading-5 text-base w-full m-0 ">
+                    <p>Samma trädgårdsarbetare återkommer för att hålla trädgården i trim</p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+
+
+
+
+
+
+          </section>
+
+        </SectionContainer>
+
+      </div>
+
+
+    </>
   )
 }
 

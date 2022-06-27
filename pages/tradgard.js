@@ -17,7 +17,7 @@ const tradgard = () => {
             <SectionContainer>
                 <section className="">
                     <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-                        <h2 className="  text-3xl md:text-5xl">
+                        <h2 className="pt-10  text-3xl md:text-5xl">
                             Vad ingår i trädgårdshjälp?
                         </h2>
                         <div>
@@ -42,7 +42,7 @@ const tradgard = () => {
 
                     <section className=" max-w-[400px] sm:max-w-none">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
-                            <h2 className=" text-center py-2 text-3xl lg:text-5xl">
+                            <h2 className=" text-center py-12 text-3xl lg:text-5xl">
                                 Så fungerar trägårdshjälpen
 
                             </h2>

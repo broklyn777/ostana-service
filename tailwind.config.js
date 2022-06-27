@@ -18,6 +18,8 @@ module.exports = {
       'pink-600': '#db2777',
       'orange-600': '#ea580c',
       'green-700': '#15803d',
+      'blue-bg': '#99becc',
+      'blue-bg-soft': '#B7D2DB',
       'green-bg': '#99cccc',
       'green-bg-soft': '#B7DBDB',
       'pink-bg': '#cc99cc',

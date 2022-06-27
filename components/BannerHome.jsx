@@ -43,7 +43,7 @@ function BannerHome() {
       </div>
 
      <ul className="leading-7">
-<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Halva priset med rutavdrag</span> </li>
+<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Halva priset med RUT-avdrag</span> </li>
 <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Alltid försäkrad</span> </li>
 <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Lokalt baserade </span> </li>
 

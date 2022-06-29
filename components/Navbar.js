@@ -31,6 +31,10 @@ const Navbar = () => {
                     </Link>
                 </li>
 
+                <li className="">
+                    <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
+                </li>
+
 
             </ul>
             {/* hamburger */}
@@ -61,6 +65,9 @@ const Navbar = () => {
                     </li>
                     <li className="">
                         <Link href="/om">Om oss</Link>
+                    </li>
+                    <li className="">
+                        <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
                     </li>
 
 

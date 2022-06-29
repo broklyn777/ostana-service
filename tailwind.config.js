@@ -26,6 +26,7 @@ module.exports = {
       'pink-bg-soft': '#dbb7db',
       'green-50': '#f0fdf4',
       'yellow': '#ffc82c',
+      'yellow-bg': '#c3aaaa',
       'gray-dark': '#273444',
       'gray-text': '#374151',
       'gray-light': '#e5e7eb',

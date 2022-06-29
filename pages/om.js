@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import React from 'react'
-import { GiBeachBucket, GiGardeningShears } from 'react-icons/gi'
+
+
 import { SiMaildotru } from 'react-icons/si'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { MdLocationPin } from 'react-icons/md'
@@ -8,7 +8,8 @@ import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
 
-const om = () => {
+
+const Om = () => {
     return (<>
         {/******************* Banner ************/}
         < div className="-mt-20 min-h-[300px] md:mt-0  px-8  text-white py-16 relative" >
@@ -148,6 +149,12 @@ const om = () => {
 
         </div>
 
+        <div className="py-2 -mt-2 -mb-1  relative  bg-pink-bg ">
+            <div className="px-8">
+                <DropOm />
+            </div>
+        </div>
+
 
 
     </>
@@ -158,4 +165,4 @@ const om = () => {
     )
 }
 
-export default om
+export default Om

@@ -13,7 +13,7 @@ const DropHome = () => {
 {/* DropHome 1 */}
               <div className="grid grid-cols-1 gap-4">
 <div>
-                <details className="p-4 rounded-lg open:bg-pink-bg open:shadow-lg">
+                <details className="p-4 rounded-lg open:bg-pink-bg ">
                     <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Hur arbetar ni? </summary>
 
                     <div className="mt-3">
@@ -48,7 +48,7 @@ const DropHome = () => {
 {/* DropHome 2 */}
 
 <div className="">
-                <details className="p-4 rounded-lg open:bg-pink-bg open:shadow-lg">
+                <details className="p-4 rounded-lg open:bg-pink-bg ">
                     <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Tar ni med det ni behöver? </summary>
 
                     <div className="mt-3">
@@ -66,7 +66,7 @@ const DropHome = () => {
 {/* DropHome 3 */}
 
 <div className="">
-                <details className="p-4 rounded-lg open:bg-pink-bg open:shadow-lg">
+                <details className="p-4 rounded-lg open:bg-pink-bg ">
                     <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Kan ni komma ut och titta innan ni lämnar prisförslag? </summary>
 
                     <div className="mt-3">

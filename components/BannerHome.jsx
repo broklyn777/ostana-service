@@ -34,7 +34,7 @@ function BannerHome() {
       <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
      
         <h1 className=" text-4xl md:text-6xl md:font-normal">
-          Välkommen till Östanå FixTrix! 
+          Välkommen till Östanå Hemservice! 
         </h1>
    
         <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-full md:w-48 ">

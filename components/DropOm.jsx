@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from "next/link"
+
 
 const DropOm = () => {
   return (
@@ -13,7 +14,7 @@ const DropOm = () => {
 {/* DropHome 1 */}
               <div className="grid grid-cols-1 gap-4">
 <div>
-                <details className="p-4 rounded-lg open:bg-pink-bg open:shadow-lg">
+                <details className="p-4 rounded-lg  ">
                     <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Hur arbetar ni? </summary>
 
                     <div className="mt-3">
@@ -48,7 +49,7 @@ const DropOm = () => {
 {/* DropHome 2 */}
 
 <div className="">
-                <details className="p-4 rounded-lg open:bg-pink-bg open:shadow-lg">
+                <details className="p-4 rounded-lg ">
                     <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Tar ni med det ni behöver? </summary>
 
                     <div className="mt-3">
@@ -66,7 +67,31 @@ const DropOm = () => {
 {/* DropHome 3 */}
 
 <div className="">
-                <details className="p-4 rounded-lg open:bg-pink-bg open:shadow-lg">
+                <details className="p-4 rounded-lg ">
+                    <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Får jag RUT-avdrag på alla arbeten ni utför? </summary>
+
+                    <div className="mt-3">
+                        <p className="text-gray-text text-base leading-6">
+           
+                      RUT-avdrag gäller för så kallade hushållsnära tjänster, inklusive flyttjänster, reparation och underhåll av vitvaror och it-utrustning. Material och övriga kostnader, såsom resekostnader och bortforsling av skräp, ger däremot inte rätt till RUT-avdrag. 
+                      <div className="mb-8 text-base text-white dark:text-gray-400">
+            <Link href="https://skatteverket.se/foretag/skatterochavdrag/rotochrut/gerarbetetratttillrutavdrag.4.2ef18e6a125660db8b080001531.html">
+          Läs mer på  Skatteverket.se
+            </Link>
+
+          </div>
+
+                        </p>
+                 
+                    </div>
+
+                </details>
+
+</div>
+{/* DropHome 3 */}
+
+<div className="">
+                <details className="p-4 rounded-lg ">
                     <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Kan ni komma ut och titta innan ni lämnar prisförslag? </summary>
 
                     <div className="mt-3">

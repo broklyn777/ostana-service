@@ -5,20 +5,20 @@ import { GiClothesline, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmart
 
 const ServiceOm = () => {
   return (
-     <section className="pb-10">
-          <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
+     <section className="pb-12 -mt-6 md:-mt-16 pt-2  bg-yellow-bg">
+          <div className="text-white grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
             <h2 className="pt-2 text-3xl md:text-5xl">
               Vill du veta mer om våra olika tjänster?
             </h2>
             <div>
-              <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
+              <p className=" border-[1px] rounded-xl border-white mx-auto max-w-[72px]"></p>
             </div>
             <div className=" mx-auto text-center max-w-2xl ">
               <p > Vi hjälper dig med ditt hem och tomt. klipper gräs, häckar, buskar, blåser löv, rensar ogräs och röjer sly mm. RUT och ROT. Alltid samma person.</p>
             </div>
           </div>
 
-          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] px-8  ">
+          <ul className="text-white grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] px-8  ">
 
 
 

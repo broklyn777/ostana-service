@@ -14,7 +14,7 @@ const ServiceHome = () => {
               <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
             </div>
             <div className=" mx-auto text-center max-w-2xl ">
-              <p >Ibland är måstena för många och timmarna för få. Därför finns Östanå. Vi hjälper dig med ditt hem och tomt. klipper gräs, häckar, buskar, blåser löv, rensar ogräs och röjer sly mm. RUT och ROT. Alltid samma person.</p>
+              <p >Ibland är måstena för många och timmarna för få. Därför finns Östanå Hemservice. Vi hjälper dig med ditt hem och tomt. klipper gräs, häckar, buskar, blåser löv, rensar ogräs och röjer sly mm. RUT och ROT. Alltid samma person.</p>
             </div>
           </div>
 

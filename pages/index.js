@@ -7,6 +7,7 @@ import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import BannerHome from '../components/BannerHome'
 import DropHome from '../components/DropHome'
 import SectionContainer from '../components/SectionContainer'
+import ServiceHome from '../components/ServiceHome'
 
 const Home = () => {
   return (
@@ -16,8 +17,10 @@ const Home = () => {
       </div>
 
 
-      <SectionContainer>
-        <section className="">
+
+
+      <ServiceHome />
+      {/* <section className="">
           <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
             <h2 className="pt-10  text-3xl md:text-5xl">
               Vad vill du ha hjälp med?
@@ -30,7 +33,7 @@ const Home = () => {
             </div>
           </div>
 
-          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] px-8  ">
+          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] pb-8 px-8  ">
 
 
 
@@ -78,9 +81,9 @@ const Home = () => {
           </ul>
 
 
-        </section>
+        </section> */}
 
-      </SectionContainer>
+
 
       {/* *************** Section 3 PINK ****************************/}
 

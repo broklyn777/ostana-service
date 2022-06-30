@@ -16,7 +16,7 @@ const tradgard = () => {
                 title="Trädgårdshjälp | Hjälp med min trädgård | Östanå Hemservice"
                 description="Behöver du trädgårdshjälp? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor och rabatter mm. Även trädfällning."
                 openGraph={{
-                    title: "prenumerera på vår trädgårdshjälp under hela säsongen.",
+                    title: "Vi erbjuder trädgårdshjälp under hela säsongen.",
                 }}
             />
 

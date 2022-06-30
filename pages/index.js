@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
 import { GiBeachBucket, GiClothesline, GiGardeningShears, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
@@ -12,6 +13,13 @@ import ServiceHome from '../components/ServiceHome'
 const Home = () => {
   return (
     <>
+      <NextSeo
+        title="Trädgårdsskötsel | Tomt och hustillsyn | Östanå Hemservice"
+        description="Östanå Hemservice hjälper dig med tillsyn av hus och tomt. Vi klipper gräs, blåser löv, rensar ogräs och röjer sly mm. RUT-avdrag. Alltid samma person."
+        openGraph={{
+          title: "prenumerera på vår trädgårdshjälp under hela säsongen.",
+        }}
+      />
       <div className="-mt-20 md:mt-0 bg-gradient-to-r from-black px-8  text-white py-16 relative">
         <BannerHome />
       </div>
@@ -20,68 +28,7 @@ const Home = () => {
 
 
       <ServiceHome />
-      {/* <section className="">
-          <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-            <h2 className="pt-10  text-3xl md:text-5xl">
-              Vad vill du ha hjälp med?
-            </h2>
-            <div>
-              <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
-            </div>
-            <div className=" mx-auto text-center max-w-2xl ">
-              <p >Ibland är måstena för många och timmarna för få. Därför finns Östanå. Vi hjälper dig med allt ifrån städning till enklare hantverk!</p>
-            </div>
-          </div>
 
-          <ul className="text-gray-text grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] pb-8 px-8  ">
-
-
-
-
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgard'>
-              <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center flex:none"> <GiRake /> </div> <span className="flex-1"> Trädgård </span> <span className="text-gray-700 font-thin text-xl ml-4"> <FaAngleRight /> </span>
-              </a>
-            </Link>
-            </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/stadning'>
-              <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiVacuumCleaner /> </div> <span className="flex-1" > Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
-              </a>
-            </Link>
-            </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
-              <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiClothesline /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
-              </a>
-            </Link>
-            </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
-              <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiHammerNails /> </div> <span className="flex-1" > Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
-              </a>
-            </Link>
-            </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
-              <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiVibratingSmartphone /> </div> <span className="flex-1" > IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
-              </a>
-            </Link>
-            </li>
-
-            <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
-              <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiWalk /> </div> <span className="flex-1" > Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
-              </a>
-            </Link>
-            </li>
-
-
-
-          </ul>
-
-
-        </section> */}
 
 
 

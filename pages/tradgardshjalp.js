@@ -5,16 +5,18 @@ import { GiBeachBucket, GiGardeningShears, GiRake, GiVacuumCleaner } from 'react
 import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import { MdOutlineBedroomParent } from 'react-icons/md'
 import BannerTradgard from '../components/BannerTradgard'
+import DropDown from '../components/DropDown'
+import DropTradgard from '../components/DropTradgard'
 import SectionContainer from '../components/SectionContainer'
 
 const tradgard = () => {
     return (
         <>
             <NextSeo
-                title="Hjälp med trädgård | trädgårdshjälp |Östanå Hemservice"
-                description="This is an application to demo the seo features of NextJS"
+                title="trädgårdshjälp | Hjälp med min trädgård | Östanå Hemservice"
+                description="Vi hjälper dig med din trädgård? "
                 openGraph={{
-                    title: "Open Graph Title for SEO Demo",
+                    title: "prenumerera på vår trädgårdshjälp under hela säsongen.",
                 }}
             />
 
@@ -27,7 +29,7 @@ const tradgard = () => {
                 <section className="">
                     <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
                         <h2 className="pt-10  text-3xl md:text-5xl">
-                            Vad ingår i trädgårdshjälp?
+                            Vad ingår i trädgårdshjälpen?
                         </h2>
                         <div>
                             <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
@@ -35,9 +37,16 @@ const tradgard = () => {
                         <div className=" mx-auto text-center max-w-2xl">
                             <p >Klippa gräs, rensa rabatter, kratta löv och beskära fruktträd? Självklart, det fixar vi! Boka ett engångsuppdrag eller prenumerera på vår trädgårdshjälp under hela säsongen.</p>
                         </div>
+
+
+
                     </div>
-
-
+                    <DropDown />
+                    {/* <div className="py-2 -mt-2 relative ">
+                        <div className="px-8">
+                            <DropTradgard />
+                        </div>
+                    </div> */}
 
                 </section>
 
@@ -94,13 +103,17 @@ const tradgard = () => {
 
 
 
-
                     </section>
 
                 </SectionContainer>
 
-            </div>
 
+
+
+
+
+
+            </div>
 
 
 

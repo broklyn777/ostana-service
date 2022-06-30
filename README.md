@@ -10,8 +10,14 @@ https://skatteverket.se/foretag/skatterochavdrag/rotochrut/gerarbetetratttillrut
   
 fixa till icon texterna, de är från /städning
 
+trädgårdsarbete
+trädgårdstjänster
+Kratta löv
+slyröjning
+trädfällning
+trädgårdshjälp
+trädgårdsskötsel
 
 
-
-
-
+ <Link rel="noopener noreferrer" target="_blank" href="http://vedtradfallning.se/" passHref> Trädfällning och Ved
+  </Link> 

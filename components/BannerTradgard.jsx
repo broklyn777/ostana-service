@@ -16,8 +16,8 @@ function BannerTradgard() {
       <Image
     src="/img/grasklippare.jpg"
     className=" -z-[1001] "
-    alt="berg"
-    priority
+    alt="trädgårdshjälp"
+    
    
     layout="fill"
     objectFit="cover"
@@ -30,8 +30,8 @@ function BannerTradgard() {
       <Image
     src="/img/applen01.jpg"
     className=" -z-[1001] "
-    alt="berg"
-    priority
+    alt="trädgårdshjälp"
+    
    
     layout="fill"
     objectFit="cover"
@@ -48,7 +48,7 @@ function BannerTradgard() {
       <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
      
         <h1 className=" text-4xl md:text-6xl md:font-normal">
-         Vi tar hand om din trädgård
+        Har du behov av trädgårdshjälp?
         </h1>
    
         <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-48">

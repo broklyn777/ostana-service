@@ -20,7 +20,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="inline mr-8 hover:text-green-700  ">
-                    <Link href="/tradgard">
+                    <Link href="/tradgardshjalp">
                         <a>Trädgård</a>
                     </Link>
                 </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
                         <Link href="/stadning">Städning</Link>
                     </li>
                     <li className="">
-                        <Link href="/tradgard">Trädgård</Link>
+                        <Link href="/tradgardshjalp">Trädgård</Link>
                     </li>
                     <li className="">
                         <Link href="/tjanster">Fler tjänster</Link>

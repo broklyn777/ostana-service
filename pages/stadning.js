@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+import { PageSEO } from '@/components/SEO'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaAngleRight, FaRegCheckCircle } from 'react-icons/fa'

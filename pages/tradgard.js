@@ -1,3 +1,4 @@
+import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
 import { GiBeachBucket, GiGardeningShears, GiRake, GiVacuumCleaner } from 'react-icons/gi'
@@ -9,6 +10,14 @@ import SectionContainer from '../components/SectionContainer'
 const tradgard = () => {
     return (
         <>
+            <NextSeo
+                title="Hjälp med trädgård | trädgårdshjälp |Östanå Hemservice"
+                description="This is an application to demo the seo features of NextJS"
+                openGraph={{
+                    title: "Open Graph Title for SEO Demo",
+                }}
+            />
+
             <div className="-mt-20 md:mt-0 bg-gradient-to-r from-black px-8  text-white py-16 relative">
                 <BannerTradgard />
             </div>

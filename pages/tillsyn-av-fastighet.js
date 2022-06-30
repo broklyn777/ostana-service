@@ -140,7 +140,7 @@ const TillsynAvFastighet = () => {
 
                             {/* flexbox LIST ****************/}
                             <ul className="flex flex-col md:flex-row items-center md:justify-center md:items-start md:mt-0 md:ml-10 ">
-                                <li className="flex flex-col text-center items-center mt-8 md:ml-10 max-w-[310px] w-full">
+                                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
                                     <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-pink-bg-soft text-6xl"
                                     ><HiOutlineChatAlt2 />   </div>
                                     <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">STARTMÖTE</h3>

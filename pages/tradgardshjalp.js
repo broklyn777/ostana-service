@@ -13,8 +13,8 @@ const tradgard = () => {
     return (
         <>
             <NextSeo
-                title="trädgårdshjälp | Hjälp med min trädgård | Östanå Hemservice"
-                description="Vi hjälper dig med din trädgård? "
+                title="Trädgårdshjälp | Hjälp med min trädgård | Östanå Hemservice"
+                description="Behöver du trädgårdshjälp? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor och rabatter mm. Även trädfällning."
                 openGraph={{
                     title: "prenumerera på vår trädgårdshjälp under hela säsongen.",
                 }}
@@ -65,7 +65,7 @@ const tradgard = () => {
 
                             </h2>
                             <div>
-                                <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
+                                <div className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></div>
                             </div>
 
                             {/* flexbox LIST ****************/}

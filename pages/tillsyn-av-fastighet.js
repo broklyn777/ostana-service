@@ -30,7 +30,7 @@ const TillsynAvFastighet = () => {
                         <Image
                             src="/img/house_1920.jpg"
                             className=" -z-[1001] "
-                            alt="tillsyn-av-fastighet"
+                            alt="Tillsyn av fastighet"
                             priority
 
                             layout="fill"
@@ -114,7 +114,7 @@ const TillsynAvFastighet = () => {
                 <Image
                     src="/img/trasigt-fonster.jpg"
                     className=" "
-                    alt=""
+                    alt="tillsyn av fastighet"
                     height={1099}
                     width={1914}
 

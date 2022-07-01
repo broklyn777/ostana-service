@@ -16,9 +16,9 @@ const TillsynAvFastighet = () => {
         <>
             <NextSeo
                 title="Tillsyn av fastighet | Hustillsyn | Östanå Hemservice"
-                description="Behöver du trädgårdshjälp? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor och rabatter mm. Även trädfällning."
+                description="Hustillsyn med regelbundna tillsynsrapporer.  Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, samt kontrollerar att dina dörrar är låsta."
                 openGraph={{
-                    title: "Vi erbjuder trädgårdshjälp under hela säsongen.",
+                    title: "Vi erbjuder hustillsyn under hela säsongen.",
                 }}
             />
             {/******************* Banner ************/}

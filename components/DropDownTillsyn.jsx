@@ -14,7 +14,7 @@ const DropDownTillsyn = () => {
                     <div className="mt-3">
                         <div className="text-gray-text text-base leading-6">
            
-                  Vi ser till ditt hus och tomt utifrån var fjärde eller varannan vecka, så att inget hänt som kräver åtgärd. Vi ser kontrollerar att alla dörrar är låsta över fönster, tak, fasad. Vi ser även till att inte möbler eller annat blåst omkring. 
+                  Vi ser till ditt hus och tomt utifrån var fjärde eller varannan vecka, så att inget hänt som kräver åtgärd. Vi kontrollerar att alla dörrar är låsta och ser över fönster, tak, fasad. Vi ser även till att inte möbler eller annat blåst omkring. 
                     
                         </div>
                  

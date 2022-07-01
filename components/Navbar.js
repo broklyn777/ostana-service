@@ -26,15 +26,16 @@ const Navbar = () => {
                 </li>
 
                 <li className="inline md:mr-8 hover:text-green-700  ">
+                    <Link href="/tillsyn-av-fastighet">
+                        <a>Tillsyn av fastighet</a>
+                    </Link>
+                </li>
+
+                <li className="inline md:mr-8 hover:text-green-700  ">
                     <Link href="/om">
                         <a>Om oss</a>
                     </Link>
                 </li>
-
-                <li className="">
-                    <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
-                </li>
-
 
             </ul>
             {/* hamburger */}
@@ -64,10 +65,10 @@ const Navbar = () => {
                         <Link href="/tjanster">Fler tjänster</Link>
                     </li>
                     <li className="">
-                        <Link href="/om">Om oss</Link>
+                        <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
                     </li>
                     <li className="">
-                        <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
+                        <Link href="/om">Om oss</Link>
                     </li>
 
 

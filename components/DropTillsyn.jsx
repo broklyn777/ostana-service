@@ -15,14 +15,12 @@ const DropTillsyn = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 <div>
                 <details className="p-4 rounded-lg  ">
-                    <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Vad ingår i hustillsyn med RUT-avdrag? </summary>
+                    <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Yttre tillsyn </summary>
 
                     <div className="mt-3">
                         <p className="text-gray-text text-base leading-6">
 
-                    Några exempel på tjänster vi utför med <span className="font-semibold" >RUT-avdrag</span>  är att ta hand er post, hjälpa till med att vattna blommor, vädra, spola kranar och toaletter, byta ut trasiga lampor sätta på och stänga av vatten och värme för säsongen. Ta hand om vissa typer av skador, exempelvis torka upp vatten efter en läcka och sätta för en krossad fönsterruta
-                                    ta emot varubud och hantverkare.
-                                  
+                  Vi ser till ditt hus och tomt utifrån varannan vecka, så att inget hänt som kräver åtgärd. Vi ser över fönster, tak, fasad och kontrollerar så att alla dörrar är låsta. Vi ser även till att inte möbler eller annat blåst omkring. 
                                 
 
                         </p>
@@ -37,12 +35,12 @@ const DropTillsyn = () => {
 
 <div className="">
                 <details className="p-4 rounded-lg ">
-                    <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Endast hjälp med tillsyn utomhus? </summary>
+                    <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6"> Inre tillsyn </summary>
 
                     <div className="mt-3">
                         <p className="text-gray-text text-base leading-6">
            
-                       Vi anpassar oss till dina behov och önskningar. Kanske behöver du endast hjälp med tillsyn av fastigheten utomhus. Vi ser då till att inte möbler eller annat blåst omkring. Vi kontrollerar så att alla dörrar är låsta. Skulle något fönster eller liknande vara trasigt gör vi omgående en tillfällig lagning. Vid önskamål, tex efter en storm, ser vi även till så att inga synliga skador finns på tak, fasad mm. Kanske behöver du även hjälp med gräsklippning, fönsterputs, snöskottning? 
+                   Om ni önskkar så erbjuder vi även en inre hustillsyn, 
                         </p>
                  
                     </div>

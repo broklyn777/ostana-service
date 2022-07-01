@@ -30,6 +30,7 @@ module.exports = {
       'gray-dark': '#273444',
       'gray-text': '#374151',
       'gray-light': '#e5e7eb',
+      'gray-400': '#cbd5e1',
 
     },
 

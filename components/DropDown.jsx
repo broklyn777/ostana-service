@@ -4,12 +4,12 @@ import React from 'react'
 
 const DropDown = () => {
   return (
-    <div className=" pb-10 px-2  md:grid  md:grid-cols-2 gap-20   relative">
+    <div className=" pb-10 px-2 md:px-6 font-normal  md:grid text-2xl md:grid-cols-2 gap-20   relative">
 <ul className="" >     {/* **** 01 */}
                 <div>
                 <details className="p-4 pb-0 border-b-2 open:pb-4 border-gray-light   ">
                     <summary className="  py-4    
-                    cursor-pointer text-2xl text-gray-text leading-6"> Kratta löv </summary>
+                    cursor-pointer  text-gray-text leading-6"> Kratta löv </summary>
 
                     <div className="mt-3">
                         <div className="text-gray-text text-base leading-6">

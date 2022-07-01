@@ -8,10 +8,19 @@ import { MdOutlineBedroomParent } from "react-icons/md";
 import DropTillsyn from '../components/DropTillsyn'
 
 import SectionContainer from '../components/SectionContainer'
+import DropDownTillsyn from '../components/DropDownTillsyn'
+import { NextSeo } from 'next-seo'
 
 const TillsynAvFastighet = () => {
     return (
         <>
+            <NextSeo
+                title="Tillsyn av fastighet | Hustillsyn | Östanå Hemservice"
+                description="Behöver du trädgårdshjälp? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor och rabatter mm. Även trädfällning."
+                openGraph={{
+                    title: "Vi erbjuder trädgårdshjälp under hela säsongen.",
+                }}
+            />
             {/******************* Banner ************/}
             <div className="-mt-20 md:mt-0 bg-gradient-to-r from-black px-8  text-white py-16 relative">
 
@@ -38,9 +47,9 @@ const TillsynAvFastighet = () => {
 
                         <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
 
-                            <h1 className=" tracking-tight text-4xl md:text-6xl md:font-normal">
-                                Behöver du någon som ser till din fastighet
-                            </h1>
+                            <h2 className=" tracking-tight text-4xl md:text-6xl md:font-normal">
+                                Behöver du någon som ser till din fastighet?
+                            </h2>
 
                             <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-48">
                                 <Link href="/om">Kontakta oss</Link>
@@ -72,11 +81,11 @@ const TillsynAvFastighet = () => {
 
                     <section className="">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-                            <h2 className="pt-10  text-3xl md:text-5xl">
-                                RUT-avdrag för att vi tittar till ditt hus
+                            <h1 className="pt-10  text-3xl md:text-5xl">
+                                Tillsyn av hus! Vad ingår?
 
 
-                            </h2>
+                            </h1>
                             <div>
                                 <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
                             </div>
@@ -94,13 +103,13 @@ const TillsynAvFastighet = () => {
 
 
 
-
-
+                        <DropDownTillsyn />
                     </section>
 
                 </SectionContainer>
 
             </div>
+
             <div className=" mx-auto -z-10 max-w-[1920px] ">
                 <Image
                     src="/img/trasigt-fonster.jpg"
@@ -118,11 +127,7 @@ const TillsynAvFastighet = () => {
 
 
             {/* DropDown 1 ***********************************/}
-            <div className="py-2 -mt-2 relative ">
-                <div className="px-8">
-                    <DropTillsyn />
-                </div>
-            </div>
+
             {/* *************** Section 3 PINK ****************************/}
 
             <div className="py-2 relative  bg-pink-bg">

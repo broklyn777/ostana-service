@@ -16,7 +16,7 @@ const TillsynAvFastighet = () => {
         <>
             <NextSeo
                 title="Tillsyn av fastighet | Hustillsyn | Östanå Hemservice"
-                description="Hustillsyn med regelbundna tillsynsrapporer.  Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, samt kontrollerar att dina dörrar är låsta."
+                description="Tillsyn av fastighet med regelbundna tillsynsrapporer.  Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, samt kontrollerar att dina dörrar är låsta."
                 openGraph={{
                     title: "Vi erbjuder hustillsyn under hela säsongen.",
                 }}
@@ -30,7 +30,7 @@ const TillsynAvFastighet = () => {
                         <Image
                             src="/img/house_1920.jpg"
                             className=" -z-[1001] "
-                            alt="berg"
+                            alt="tillsyn-av-fastighet"
                             priority
 
                             layout="fill"
@@ -93,7 +93,7 @@ const TillsynAvFastighet = () => {
 
 
                                 <p>
-                                    Vi har olika tillsynsabonnemang där du väljer efter dina behov. Du kan välja att vi ser till din fastighet endast från utsidan eller även invändigt? Kanske behöver du dessutom hjälp med gräsklippning, lövkrattning, snöskottning eller något annat? </p>
+                                    Vi har olika abonnemang för hustillsyn där du väljer efter dina behov. Du kan välja att vi ser till din fastighet endast från utsidan eller även invändigt? Kanske behöver du dessutom hjälp med gräsklippning, lövkrattning, snöskottning eller något annat? </p>
 
 
 

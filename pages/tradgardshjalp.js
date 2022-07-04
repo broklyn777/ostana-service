@@ -1,4 +1,5 @@
 import { NextSeo } from 'next-seo'
+import Image from 'next/image'
 import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
 import { GiBeachBucket, GiGardeningShears, GiRake, GiVacuumCleaner } from 'react-icons/gi'

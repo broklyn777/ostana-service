@@ -87,11 +87,25 @@ const Home = () => {
 
         </SectionContainer>
       </div>
-      <div className=" mx-auto -z-10 max-w-[1920px] ">
+      <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
         <Image
           src="/img/blomma003.png"
           className=" "
-          alt=""
+          alt="trädgård,blomma, hemservice"
+          height={1099}
+          width={1914}
+
+
+
+
+        />
+
+      </div>
+      <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
+        <Image
+          src="/img/blomma.webp"
+          className=" "
+          alt="trädgård,blomma, hemservice"
           height={1099}
           width={1914}
 

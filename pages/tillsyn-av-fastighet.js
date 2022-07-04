@@ -16,7 +16,7 @@ const TillsynAvFastighet = () => {
         <>
             <NextSeo
                 title="Tillsyn av fastighet | Hustillsyn | Östanå Hemservice"
-                description="Tillsyn av fastighet med regelbundna tillsynsrapporer.  Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, samt kontrollerar att dina dörrar är låsta."
+                description="Tillsyn av fastighet med regelbundna rapporter. Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, kontrollerar att dörrar är låsta."
                 openGraph={{
                     title: "Vi erbjuder hustillsyn under hela säsongen.",
                 }}
@@ -112,7 +112,7 @@ const TillsynAvFastighet = () => {
 
             <div className=" mx-auto -z-10 max-w-[1920px] ">
                 <Image
-                    src="/img/trasigt-fonster.jpg"
+                    src="/img/man-i-tradgard.png"
                     className=" "
                     alt="tillsyn av fastighet"
                     height={1099}

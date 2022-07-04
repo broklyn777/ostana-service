@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 import Link from "next/link";
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -14,9 +15,9 @@ function BannerHome() {
     {/* <div className=" text-white " style={backgroundImageStyle}> */}
     <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
       <Image
-    src="/img/roj-klipp.jpg"
+    src="/img/rojning.webp"
     className=" -z-[1001] "
-    alt="berg"
+    alt="östanå Hemservice"
     priority
    
     layout="fill"
@@ -27,7 +28,9 @@ function BannerHome() {
 
     </div>
     
- 
+
+
+
 
  <div className="text-center md:text-left text-white px-8 py-16 mt-7 -z-20">
     
@@ -43,7 +46,7 @@ function BannerHome() {
       </div>
 
      <ul className="font-thin  leading-7">
-<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> Halva priset med RUT-avdrag</li>
+<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div>Hemservice med RUT-avdrag</li>
 <li className="flex items-center  mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Alltid försäkrad</span> </li>
 <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span > Lokalt baserade </span> </li>
 

@@ -4,6 +4,12 @@ https://skatteverket.se/foretag/skatterochavdrag/rotochrut/gerarbetetratttillrut
 
 ## Att göra
 
+byta bild tillsyn broken window
+
+
+
+
+
 ### /sidor
 
 - /tillsyn av fastighet

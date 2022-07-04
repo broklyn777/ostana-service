@@ -23,7 +23,7 @@ const ServiceHome = () => {
 
 
 
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgard'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgardshjalp'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center flex:none"> <GiRake /> </div> <span className="flex-1"> Trädgård </span> <span className="text-gray-700 font-thin text-xl ml-4"> <FaAngleRight /> </span>
               </a>

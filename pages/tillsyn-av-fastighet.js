@@ -109,7 +109,7 @@ const TillsynAvFastighet = () => {
                 </SectionContainer>
 
             </div>
-
+            {/* 
             <div className=" mx-auto -z-10 max-w-[1920px] ">
                 <Image
                     src="/img/man-i-tradgard.png"
@@ -123,7 +123,7 @@ const TillsynAvFastighet = () => {
 
                 />
 
-            </div>
+            </div> */}
 
 
             {/* DropDown 1 ***********************************/}

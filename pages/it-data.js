@@ -5,20 +5,22 @@ import { FaAngleRight, FaRegCheckCircle } from 'react-icons/fa'
 import { HiOutlineAnnotation, HiOutlineChatAlt2, HiUser } from 'react-icons/hi'
 import { GiVacuumCleaner } from 'react-icons/gi'
 import { MdOutlineBedroomParent } from "react-icons/md";
-import DropTillsyn from '../components/DropTillsyn'
+
 
 import SectionContainer from '../components/SectionContainer'
-import DropDownTillsyn from '../components/DropDownTillsyn'
+import DropDownDataIt from '../components/DropDownDataIt'
 import { NextSeo } from 'next-seo'
+import BannerDataIt from '../components/BannerDataIt'
+import BannerHome from '../components/BannerHome'
 
 const itData = () => {
     return (
         <>
             <NextSeo
-                title="Tillsyn av fastighet | Hustillsyn | Östanå Hemservice"
-                description="Tillsyn av fastighet med regelbundna rapporter. Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, kontrollerar att dörrar är låsta."
+                title="Datorhjälp | Problemfri IT-vardag | Östanå Hemservice"
+                description="Behöver du hjälp med datorn? Vi hjälper dig till en problemfri IT-vardag. Dator och mobilhjälp i lugn och ro hemma hos dig. Även rådgivning."
                 openGraph={{
-                    title: "Vi erbjuder hustillsyn under hela säsongen.",
+                    title: "Vi erbjuder Datorhjälp under hela säsongen.",
                 }}
             />
             {/******************* Banner ************/}
@@ -28,9 +30,9 @@ const itData = () => {
                     {/* <div className=" text-white " style={backgroundImageStyle}> */}
                     <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
                         <Image
-                            src="/img/house_1920.jpg"
+                            src="/img/samsung.png"
                             className=" -z-[1001] "
-                            alt="Tillsyn av fastighet"
+                            alt="Datahjälp, hjälp med mobiltelefon"
                             priority
 
                             layout="fill"
@@ -45,9 +47,10 @@ const itData = () => {
 
                         <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
 
-                            <h2 className=" tracking-tight text-4xl md:text-6xl md:font-normal">
-                                Behöver du någon som ser till din fastighet?
-                            </h2>
+                            <h1 className=" tracking-tight text-4xl md:text-6xl md:font-normal">
+                                Datorhjälp när det passar dig!
+
+                            </h1>
 
                             <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-48">
                                 <Link href="/om">Kontakta oss</Link>
@@ -55,7 +58,7 @@ const itData = () => {
                         </div>
 
                         <ul className="">
-                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Alltid Försäkrat</span> </li>
+                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Hjälp i lugn och ro</span> </li>
                             <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Anpassat efter dina behov</span> </li>
                             <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Lokalt baserade. Alltid nära dig</span> </li>
 
@@ -69,12 +72,7 @@ const itData = () => {
                 </div>
 
             </div>
-            <div className="-mt-60 mr-20 float-right ">
-                <video className="rounded-t-full object-cover w-96 h-60 overflow-hidden
-  z-0" autoPlay loop muted >
-                    <source src="/img/chipmonk.mp4" type="video/mp4" />
-                </video>
-            </div>
+
             {/* *************** Section ****************************/}
 
 
@@ -84,11 +82,11 @@ const itData = () => {
 
                     <section className="">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-                            <h1 className="pt-10  text-3xl md:text-5xl">
-                                Tillsyn av fastighet! Vad ingår?
+                            <h2 className="pt-10  text-3xl md:text-5xl">
 
 
-                            </h1>
+                                Behöver du hjälp med datorn? Vi hjälper dig till en problemfri IT-vardag
+                            </h2>
                             <div>
                                 <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
                             </div>
@@ -96,7 +94,8 @@ const itData = () => {
 
 
                                 <p>
-                                    Vi har olika abonnemang för hustillsyn där du väljer efter dina behov. Du kan välja att vi ser till din fastighet endast från utsidan eller även invändigt? Kanske behöver du dessutom hjälp med gräsklippning, lövkrattning, snöskottning eller något annat? </p>
+                                    Vi vet hur jobbigt det kan vara med dator, datorer, skrivare, mobiltelefon, TV apparat eller annan IT utrustning som inte fungerar som man vill. Här är lite av vad vi kan hjälpa dig med vid ett hembesök.
+                                </p>
 
 
 
@@ -104,14 +103,16 @@ const itData = () => {
                             </div>
                         </div>
 
+                        {/* DropDown 1 ***********************************/}
 
-
-                        <DropDownTillsyn />
+                        <DropDownDataIt />
                     </section>
 
                 </SectionContainer>
 
             </div>
+            {/*^^^^^********************* circle video img section ^^^***************************/}
+
 
             {/* <div className=" mx-auto -z-10 max-w-[1920px] ">
                 <Image
@@ -129,7 +130,9 @@ const itData = () => {
             </div> */}
 
 
-            {/* DropDown 1 ***********************************/}
+            <div className=" md:mt-0 bg-gradient-to-r from-black px-8  text-white py-16 relative">
+                <BannerDataIt />
+            </div>
 
             {/* *************** Section 3 PINK ****************************/}
 

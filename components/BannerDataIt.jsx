@@ -36,7 +36,7 @@ function BannerDataIt() {
     
       <div className=" max-w-xl md:max-w-4xl grid grid-cols-1 gap-8 mb-8">
      
-        <h1 className=" text-4xl md:text-6xl md:font-normal">
+        <h1 className=" pb-40 text-4xl md:text-6xl md:font-normal">
           Välkommen till en enklare vardag! 
         </h1>
    

@@ -15,7 +15,7 @@ function BannerDataIt() {
     {/* <div className=" text-white " style={backgroundImageStyle}> */}
     <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
       <Image
-    src="/img/apple-yt-animation.png"
+    src="/img/apple-relax.jpg"
     className=" -z-[1001] "
     alt="datahjälp, hjälp med it"
     priority

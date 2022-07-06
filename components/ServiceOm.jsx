@@ -18,7 +18,7 @@ const ServiceOm = () => {
             </div>
           </div>
 
-          <ul className="text-white grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] px-8  ">
+         <ul className="text-white grid grid-cols-1 gap-6 sm:grid-cols-2 text-2xl mt-8 font-[400] px-8  ">
 
 
 
@@ -35,28 +35,28 @@ const ServiceOm = () => {
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/seniorhjalp'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiClothesline /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tillsyn-av-fastighet'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiHammerNails /> </div> <span className="flex-1" > Hantverkshjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiHammerNails /> </div> <span className="flex-1" > Tillsyn av fastighet </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/data-it'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiVibratingSmartphone /> </div> <span className="flex-1" > IT & Datahjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiVibratingSmartphone /> </div> <span className="flex-1" >Data & IT-hjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
 
             <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiWalk /> </div> <span className="flex-1" > Övrigt </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiWalk /> </div> <span className="flex-1" > Övriga tjänster </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>

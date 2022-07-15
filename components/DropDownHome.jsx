@@ -2,7 +2,7 @@ import Link from './Link'
 import React from 'react'
 
 
-const DropDownDataIt = () => {
+const DropDownHome = () => {
   return (
     <div className=" pb-10 px-2  md:grid  md:grid-cols-2 gap-20    relative">
 <ul className="" >     {/* **** 01 */}
@@ -130,4 +130,4 @@ Vi hjälper till med installation av mjukvara/dataprogram såsom t.ex. Microsoft
   )
 }
 
-export default DropDownDataIt
+export default DropDownHome

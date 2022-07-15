@@ -9,6 +9,7 @@ import BannerHome from '../components/BannerHome'
 import DropHome from '../components/DropHome'
 import SectionContainer from '../components/SectionContainer'
 import ServiceHome from '../components/ServiceHome'
+import DropDownHome from '../components/DropDownHome'
 
 const Home = () => {
   return (
@@ -80,7 +81,7 @@ const Home = () => {
 
 
 
-
+            {/* <DropDownHome /> */}
 
 
           </section>

@@ -41,7 +41,7 @@ function BannerHome() {
         </h1>
    
         <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-full md:w-48 ">
-          <Link href="/kontakt">Bli uppringd</Link>  
+          <Link href="/om">Kontakta oss</Link>  
         </button>
       </div>
 

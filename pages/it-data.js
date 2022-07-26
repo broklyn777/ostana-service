@@ -149,34 +149,7 @@ const itData = () => {
                                 <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
                             </div>
 
-                            {/* flexbox LIST ****************/}
-                            <ul className="flex flex-col md:flex-row items-center md:justify-center md:items-start md:mt-0 md:ml-10 ">
-                                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
-                                    <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-pink-bg-soft text-6xl"
-                                    ><HiOutlineChatAlt2 />   </div>
-                                    <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">STARTMÖTE</h3>
-                                    <div className=" leading-5 text-base w-full m-0 ">
-                                        <p>På ett fysiskt eller ett digitalt möte berättar du för oss vad du vill ha hjälp med och hur du vill ha det gjort.</p>
-                                    </div>
-                                </li>
-                                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
-                                    <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-pink-bg-soft text-6xl"
-                                    ><GiVacuumCleaner />   </div>
-                                    <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">STARTSTÄDNINGEN</h3>
-                                    <div className=" leading-5 text-base w-full m-0 ">
-                                        <p>Vi börjar ofta med en grundlig städning - för att ge ditt hem en så bra start som möjligt helt enkelt!</p>
-                                    </div>
-                                </li>
-                                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
-                                    <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-pink-bg-soft text-6xl"
-                                    ><MdOutlineBedroomParent />   </div>
-                                    <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">NJUT AV DITT RENA HEM!</h3>
-                                    <div className=" leading-5 text-base w-full m-0 ">
-                                        <p>Du kan använda abonnemangets timmar till andra saker också, t.ex.fönsterputs, tvätt...med mera!.</p>
-                                    </div>
-                                </li>
 
-                            </ul>
                         </div>
 
 

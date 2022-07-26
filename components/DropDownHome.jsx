@@ -111,11 +111,12 @@ Vi hjälper till med installation av mjukvara/dataprogram såsom t.ex. Microsoft
                          <div>
                 <details className="p-4 items-center pb-0 border-b-2 open:pb-4 border-gray-400   ">
                     <summary className=" py-4 
-                    cursor-pointer text-2xl text-gray-text leading-6">övriga IT-tjänster</summary>
+                    cursor-pointer text-2xl text-gray-text leading-6">Omsorgstjänster</summary>
 
                     <div className="mt-3">
                         <div className="text-gray-text text-base leading-6">
-         Data och IT tekniken hemma kanske fungerar precis som den ska, men är lite svår att förstå sig på. Då kan du få hjälp med just dina behov eller frågor. Vi handleder dig i användandet av exempelvis  bluetooth-uppkoppling, hörlurar, mobiltelefon, smartphone, dator, surfplatta, skrivare eller tv.
+         
+Östanå Hemservice erbjuder även i omsorgstjänster för den som bor i Österåker och Norrtälje kommun och behöver extra stöd med enklare vardagssysslor. Servicetjänster inom omsorg innefattas också av RUT-avdraget. Personal med undersköterkeutbildning och lång erfarenhet inom vård och omsorg.
                     
                         </div>
                  

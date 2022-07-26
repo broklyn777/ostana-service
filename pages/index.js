@@ -25,10 +25,48 @@ const Home = () => {
         <BannerHome />
       </div>
 
+      <div className="py-2   bg-gray-light">
+        <SectionContainer>
+
+          <section className="">
+            <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
+              <h1 className="pt-10  text-3xl md:text-5xl">
+
+
+                Trädgårdshjälp med RUT-avdrag
+
+              </h1>
+              <div>
+                <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
+              </div>
+              <div className=" mx-auto text-center max-w-2xl">
+
+
+                <p>
+                  Du vet väl att RUT-avdraget även omfattar hushållsnära tjänster som gräsklippning, kratta löv, snöröjning, ihopsamling av trädgårdsavfall och inoljning av trädgårdsmöblerna?
+
+
+                </p>
 
 
 
-      <ServiceHome />
+
+              </div>
+            </div>
+
+            {/* DropDown 1 ***********************************/}
+
+            <DropDownHome />
+          </section>
+
+        </SectionContainer>
+
+      </div>
+
+
+
+
+
 
 
 
@@ -83,7 +121,7 @@ const Home = () => {
 
             {/* <DropDownHome /> */}
 
-
+            <ServiceHome />
           </section>
 
         </SectionContainer>

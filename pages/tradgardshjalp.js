@@ -29,14 +29,14 @@ const tradgard = () => {
             <SectionContainer>
                 <section className="">
                     <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-                        <h2 className="pt-10  text-3xl md:text-5xl">
-                            Vad ingår i trädgårdshjälpen?
-                        </h2>
+                        <h1 className="pt-10  text-3xl md:text-5xl">
+                            Trädgårdshjälp med RUT-avdrag
+                        </h1>
                         <div>
                             <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
                         </div>
                         <div className=" mx-auto text-center max-w-2xl">
-                            <p >Klippa gräs, rensa rabatter, kratta löv och beskära fruktträd? Självklart, det fixar vi! Boka ett engångsuppdrag eller prenumerera på vår trädgårdshjälp under hela säsongen.</p>
+                            <p >Klippa gräs, kratta löv eller ihopsamling av trädgårdsavfall. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar.</p>
                         </div>
 
 
@@ -61,14 +61,14 @@ const tradgard = () => {
 
                     <section className=" max-w-[400px] sm:max-w-none">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
-                            <h2 className=" text-center py-12 text-3xl lg:text-5xl">
+                            <h2 className=" text-center pt-12 text-3xl lg:text-5xl">
                                 Så fungerar trägårdshjälpen
 
                             </h2>
                             <div>
                                 <div className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></div>
                             </div>
-
+                            <p className="text-center"> Boka ett  engångsuppdrag eller prenumerera på vår trädgårdshjälp under hela säsongen.</p>
                             {/* flexbox LIST ****************/}
                             <ul className="flex flex-col md:flex-row items-center md:justify-center md:items-start md:mt-0 md:ml-10 ">
                                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
@@ -84,7 +84,7 @@ const tradgard = () => {
                                     ><GiBeachBucket />   </div>
                                     <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Arbetsplan</h3>
                                     <div className=" leading-5 text-base w-full m-0 ">
-                                        <p>Tillsammans kommer vi överens om skötselplan och tidsåtgång, så att vi kan möta dina önskemål på bästa sätt.</p>
+                                        <p>Tillsammans kommer vi överens om skötselplan och tidsåtgång, så att vi kan möta dina önskemål på bästa sätt. Endast vid prenumeration. </p>
                                     </div>
                                 </li>
                                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
@@ -92,7 +92,7 @@ const tradgard = () => {
                                     ><GiGardeningShears />   </div>
                                     <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Kontinuerligt underhåll</h3>
                                     <div className=" leading-5 text-base w-full m-0 ">
-                                        <p>Samma trädgårdsarbetare återkommer för att hålla trädgården i trim</p>
+                                        <p> Samma trädgårdsarbetare återkommer för att hålla trädgården i trim. Endast vid prenumeration.</p>
                                     </div>
                                 </li>
 

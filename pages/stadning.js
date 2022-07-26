@@ -19,7 +19,7 @@ const stadning = () => {
                     {/* <div className=" text-white " style={backgroundImageStyle}> */}
                     <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
                         <Image
-                            src="/img/städ-001.jpg"
+                            src="/img/hållerhinkstädmaterial_nrego7.webp"
                             className=" -z-[1001] "
                             alt="berg"
                             priority

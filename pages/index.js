@@ -43,7 +43,7 @@ const Home = () => {
 
 
                 <p>
-                  Du vet väl att RUT-avdraget även omfattar hushållsnära tjänster som gräsklippning, kratta löv, snöröjning, ihopsamling av trädgårdsavfall och inoljning av trädgårdsmöblerna?
+                  Du vet väl att RUT-avdraget omfattar hushållsnära tjänster som gräsklippning, kratta löv, snöröjning, ihopsamling av trädgårdsavfall och inoljning av trädgårdsmöblerna?
 
 
                 </p>
@@ -55,8 +55,8 @@ const Home = () => {
             </div>
 
             {/* DropDown 1 ***********************************/}
+            <ServiceHome />
 
-            <DropDownHome />
           </section>
 
         </SectionContainer>
@@ -121,7 +121,7 @@ const Home = () => {
 
             {/* <DropDownHome /> */}
 
-            <ServiceHome />
+
           </section>
 
         </SectionContainer>
@@ -156,7 +156,7 @@ const Home = () => {
       </div>
       <div className="py-2 -mt-2 relative bg-pink-bg ">
         <div className="px-8">
-          <DropHome />
+          <DropDownHome />
         </div>
       </div>
 

@@ -61,9 +61,9 @@ const Navbar = () => {
                     <li className="">
                         <Link href="/tradgardshjalp">Trädgård</Link>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                         <Link href="/tjanster">Fler tjänster</Link>
-                    </li>
+                    </li> */}
                     <li className="">
                         <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
                     </li>

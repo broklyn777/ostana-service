@@ -35,7 +35,7 @@ const ServiceHome = () => {
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/seniorhjalp'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiClothesline /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
               </a>
@@ -47,14 +47,14 @@ const ServiceHome = () => {
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/data-it'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/it-data'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiVibratingSmartphone /> </div> <span className="flex-1" >Data & IT-hjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiVibratingSmartphone /> </div> <span className="flex-1" >IT & Data-hjälp </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
 
-            <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/tjanster'>
+            <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiWalk /> </div> <span className="flex-1" > Övriga tjänster </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>

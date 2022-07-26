@@ -29,30 +29,7 @@ const Home = () => {
         <SectionContainer>
 
           <section className="">
-            <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
-              <h1 className="pt-10  text-3xl md:text-5xl">
 
-
-                Trädgårdshjälp med RUT-avdrag
-
-              </h1>
-              <div>
-                <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
-              </div>
-              <div className=" mx-auto text-center max-w-2xl">
-
-
-                <p>
-                  Du vet väl att RUT-avdraget omfattar hushållsnära tjänster som gräsklippning, kratta löv, snöröjning, ihopsamling av trädgårdsavfall och inoljning av trädgårdsmöblerna?
-
-
-                </p>
-
-
-
-
-              </div>
-            </div>
 
             {/* DropDown 1 ***********************************/}
             <ServiceHome />
@@ -93,7 +70,7 @@ const Home = () => {
                   ><HiOutlineChatAlt2 />   </div>
                   <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Samtal</h3>
                   <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Berätta för oss vad du vill ha hjälp med så återkommer vi till dig med ett prisförslag.</p>
+                    <p>Berätta för oss vad du vill ha hjälp med så återkommer vi till dig med ett prisförslag. Vi tar uppdrag både för fast konstnad eller per timme. </p>
                   </div>
                 </li>
                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
@@ -101,7 +78,7 @@ const Home = () => {
                   ><GiBeachBucket />   </div>
                   <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Arbetsplan</h3>
                   <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Tillsammans kommer vi överens om skötselplan och tidsåtgång, så att vi kan möta dina önskemål på bästa sätt.</p>
+                    <p>Tillsammans kommer vi överens om en arbetsplan och ett tidsschema där vi anpassar oss efter dina behov.</p>
                   </div>
                 </li>
                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
@@ -109,7 +86,7 @@ const Home = () => {
                   ><GiGardeningShears />   </div>
                   <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Kontinuerligt underhåll</h3>
                   <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Samma trädgårdsarbetare återkommer för att hålla trädgården i trim</p>
+                    <p>Samma trädgårdsarbetare återkommer för att hålla trädgården i trim.</p>
                   </div>
                 </li>
 

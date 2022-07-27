@@ -70,7 +70,7 @@ const Home = () => {
                   ><HiOutlineChatAlt2 />   </div>
                   <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Samtal</h3>
                   <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Berätta för oss vad du vill ha hjälp med så återkommer vi till dig med ett prisförslag. Vi tar uppdrag både för fast konstnad eller per timme. </p>
+                    <p>Berätta för oss vad du vill ha hjälp med så återkommer vi till dig med ett prisförslag antingen med fast pris eller pris per timme. </p>
                   </div>
                 </li>
                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">

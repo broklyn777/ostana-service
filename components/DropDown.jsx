@@ -46,11 +46,13 @@ const DropDown = () => {
                  <div>
                 <details className="p-4 items-center pb-0 border-b-2 open:pb-4 border-gray-light   ">
                     <summary className=" py-4 
-                    cursor-pointer text-2xl text-gray-text leading-6"> Göda gräsmattor och rabatter  </summary>
+                    cursor-pointer text-2xl text-gray-text leading-6">Röjning av sly  </summary>
 
                     <div className="mt-3">
                         <div className="text-gray-text text-base leading-6">
-           Alla vill vi ha en välmående gräsmatta. Den ska vara grön, tät och fri från ogräs och mossa. Vi på Östanå Hemservice hjälper gärna dig och din trädgård att bli så vacker som möjligt. För att det skall bli verklighet så behöver din gräsmatta gödsel. Gräsgödsel är näring för din gräsmatta, något som den kan behöva flera gånger under en säsong. Alla växter behöver näring för att må bra. Med vår hjälp och lite gödsel till dina trädgårdsväxter kan du skapa din egen underbara oas på tomten.
+  Önskar du röjning på din tomt för bättre utsikt eller vill du ta bort sly och långt gräs för att de träd och växter du vill ha kvar ska få mer näring och växa bättre?
+       Alla växter, buskar och träd behöver sol och ljus för att må bra, med Östanå Hemservice tomtröjning kan du skapa din egen underbara oas på tomten.  
+ Vi hjälper dig gärna så att din tomt och trädgård blir så vacker som möjligt.  
                     
                         </div>
                  

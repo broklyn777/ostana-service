@@ -52,11 +52,24 @@ const tradgard = () => {
                 </section>
 
             </SectionContainer>
+            <div className="  mx-auto -z-10 max-w-[1920px] ">
+                <Image
+                    src="/img/parkröjning-furusund_.webp"
+                    className=" "
+                    alt="trädgård,blomma, hemservice"
+                    height={1099}
+                    width={1914}
 
+
+
+
+                />
+
+            </div>
 
             {/* *************** Section 3 PINK ****************************/}
 
-            <div className="py-2 relative bg-green-bg ">
+            <div className="py-4 -mt-2 relative bg-green-bg ">
                 <SectionContainer>
 
                     <section className=" max-w-[400px] sm:max-w-none">

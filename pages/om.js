@@ -46,7 +46,7 @@ const Om = () => {
         {/* mobile */}
         <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/personalostana.png"
+                src="/img/personalostana-003-mob.webp"
                 className=" "
                 alt=""
                 height={1199}
@@ -60,7 +60,7 @@ const Om = () => {
         </div>
         <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/personalostana@2x.png"
+                src="/img/personalostana-003.webp"
                 className=" "
                 alt=""
                 height={1199}

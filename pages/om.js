@@ -46,7 +46,7 @@ const Om = () => {
         {/* mobile */}
         <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/personalostana-003-mob.webp"
+                src="/img/personalostana-003.webp"
                 className=" "
                 alt=""
                 height={1199}
@@ -87,19 +87,19 @@ const Om = () => {
                             <li className="flex flex-col text-center items-center  mt-4 md:mt-12 md:ml-10 max-w-[310px] w-full">
                                 <div className="flex text-white w-20 h-20 lg:w-32 lg:h-32 font-light rounded-full items-center justify-center  mb-4 bg-green-bg-soft text-4xl lg:text-6xl"
                                 ><SiMaildotru />   </div>
-                                <h3 className="md:text-lg  text-base w-full  relative m-0 ">hej@ostana.se</h3>
+                                <h3 className="md:text-lg  text-base w-full  relative m-0 ">info@ostanahemservice.se</h3>
 
                             </li>
                             <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
                                 <div className="flex text-white w-20 h-20 lg:w-32 lg:h-32 font-light rounded-full items-center justify-center  mb-4 bg-green-bg-soft text-4xl lg:text-6xl"
                                 ><MdLocationPin />   </div>
-                                <h3 className="md:text-lg  text-base w-full  relative m-0 ">Östanå Slott</h3>
+                                <h3 className="md:text-lg  text-base w-full  relative m-0 ">Östanå Roslags Kulla</h3>
 
                             </li>
                             <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
                                 <div className="flex text-white w-20 h-20 lg:w-32 lg:h-32 font-light rounded-full items-center justify-center  mb-4 bg-green-bg-soft text-4xl lg:text-6xl"
                                 ><FaPhoneAlt />   </div>
-                                <h3 className="md:text-lg  text-basef w-full  relative m-0 ">070-111 23 22</h3>
+                                <h3 className="md:text-lg  text-basef w-full  relative m-0 ">070-689 89 99</h3>
 
                             </li>
 

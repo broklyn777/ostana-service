@@ -13,12 +13,12 @@ const Navbar = () => {
                 <li className="inline mr-8 hover:text-green-700 ">
                     <Link href="/it-data">IT & Data</Link>
                 </li>
-
+                {/* 
                 <li className="inline mr-8 hover:text-green-700  ">
                     <Link href="/stadning">
                         <a>Städning</a>
                     </Link>
-                </li>
+                </li> */}
                 <li className="inline mr-8 hover:text-green-700  ">
                     <Link href="/tradgardshjalp">
                         <a>Trädgård</a>
@@ -55,9 +55,9 @@ const Navbar = () => {
                     <li className="">
                         <Link href="/it-data">IT & Data</Link>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                         <Link href="/stadning">Städning</Link>
-                    </li>
+                    </li> */}
                     <li className="">
                         <Link href="/tradgardshjalp">Trädgård</Link>
                     </li>

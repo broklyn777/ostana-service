@@ -7,6 +7,7 @@ import { MdLocationPin } from 'react-icons/md'
 import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
+import Link from 'next/link'
 
 
 const Om = () => {
@@ -34,7 +35,11 @@ const Om = () => {
                     <p className=" border-[1px] rounded-xl border-white mx-auto max-w-[72px]"></p>
                 </div>
 
-                <p className="text-center text-base ">Har du frågor eller funderingar - tveka inte att höra av dig till oss.</p>
+                <p className="text-center text-base hidden md:block ">Har dufrågor eller funderingar - tveka inte att höra av dig till oss.  <br></br>  Björn Jansson  <Link href="tel:0706898999">070-689 89 99</Link> </p>
+                <p className="text-center text-base md:hidden ">Har dufrågor eller funderingar - tveka inte att höra av dig till oss.  Björn Jansson  <Link href="tel:0706898999">070-689 89 99</Link> </p>
+
+
+
 
             </div>
 
@@ -42,7 +47,9 @@ const Om = () => {
 
 
 
+
         </div>
+
         {/* mobile */}
         <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
             <Image
@@ -98,8 +105,9 @@ const Om = () => {
                             </li>
                             <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
                                 <div className="flex text-white w-20 h-20 lg:w-32 lg:h-32 font-light rounded-full items-center justify-center  mb-4 bg-green-bg-soft text-4xl lg:text-6xl"
-                                ><FaPhoneAlt />   </div>
-                                <h3 className="md:text-lg  text-basef w-full  relative m-0 ">070-689 89 99</h3>
+                                >
+                                    <FaPhoneAlt />   </div>
+                                <h3 className="md:text-lg  text-basef w-full  relative m-0 "> <Link href="tel:0706898999">070-689 89 99</Link></h3>
 
                             </li>
 

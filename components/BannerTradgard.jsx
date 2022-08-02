@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaRegCheckCircle } from "react-icons/fa";
+import { FaPhone, FaPhoneAlt, FaRegCheckCircle } from "react-icons/fa";
+import Cta from "./Cta";
 
 
 function BannerTradgard() {
@@ -51,13 +52,12 @@ function BannerTradgard() {
         Har du behov av trädgårdshjälp?
         </h1>
    
-        <button className="bg-gradient-to-r from-pink-600 to-orange-600 py-3 cursor-pointer px-6  text-lg rounded-md w-48">
-          <Link href="/om">Kontakta oss</Link>  
-        </button>
+<Cta/>
       </div>
 
+
      <ul className=" font-extralight leading-7">
-<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Gröna fingrar </span> </li>
+<li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Inga bindningstider</span> </li>
 <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Trädgårdshjälp med RUT-avdrag</span> </li>
 <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle/> </div> <span> Alltid samma trädgårdsmästare  </span> </li>
 

@@ -1,21 +1,22 @@
-/* eslint-disable react/no-unknown-property */
+
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaAngleRight, FaPhoneAlt, FaRegCheckCircle } from 'react-icons/fa'
 import { HiOutlineAnnotation, HiOutlineChatAlt2, HiUser } from 'react-icons/hi'
 import { GiVacuumCleaner } from 'react-icons/gi'
 import { MdOutlineBedroomParent } from "react-icons/md";
-import DropTillsyn from '../components/DropTillsyn'
-import Cta from '../components/Cta'
-import SectionContainer from '../components/SectionContainer'
-import DropDownTillsyn from '../components/DropDownTillsyn'
+
+import Cta from '@/components/Cta'
+import SectionContainer from '@/components/SectionContainer'
+import DDTradgardAkersberga from '@/components/DDTradgardAkersberga'
 import { NextSeo } from 'next-seo'
 
-const TillsynAvFastighet = () => {
+const akersberga = () => {
     return (
         <>
             <NextSeo
-                title="Tillsyn av fastighet | Österåker & Norrtälje Kommun"
+                title="Trädgårdshjälp Åkersberga | Östanå Hemservice"
                 description="Tillsyn av fastighet med regelbundna rapporter. Vi ser över fönster, tak, fasad, utemöbler, spolar kranar och toaletter, kontrollerar att dörrar är låsta."
                 openGraph={{
                     title: "Vi erbjuder hustillsyn under hela säsongen.",
@@ -43,22 +44,23 @@ const TillsynAvFastighet = () => {
 
 
 
+
                     <div className=" text-white px-8 py-16 mt-7 -z-20">
 
                         <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
 
-                            <h2 className=" tracking-tight text-4xl md:text-6xl md:font-normal">
-                                Behöver du någon som ser till din fastighet?
-                            </h2>
+                            <h1 className=" text-4xl md:text-6xl md:font-normal">
+                                Har du behov av trädgårdshjälp?
+                            </h1>
+
                             <Cta />
-
-
                         </div>
 
-                        <ul className="">
-                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Alltid Försäkrat</span> </li>
-                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Anpassat efter dina behov</span> </li>
-                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Lokalt baserade. Alltid nära dig</span> </li>
+
+                        <ul className=" font-extralight leading-7">
+                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Inga bindningstider</span> </li>
+                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Trädgårdshjälp med RUT-avdrag</span> </li>
+                            <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Alltid samma trädgårdsmästare  </span> </li>
 
 
 
@@ -102,10 +104,39 @@ const TillsynAvFastighet = () => {
 
 
 
-                        <DropDownTillsyn />
+                        <DDTradgardAkersberga />
                     </section>
 
                 </SectionContainer>
+
+            </div>
+
+            <div className="  mx-auto -z-10 max-w-[1920px] ">
+                <Image
+                    src="/img/rialav-1st.webp"
+                    className=" "
+                    alt="trädgård,blomma, hemservice"
+                    height={1099}
+                    width={1914}
+
+
+
+
+                />
+
+            </div>
+            <div className=" -mt-2  mx-auto -z-10 max-w-[1920px] ">
+                <Image
+                    src="/img/rialav-2nd.webp"
+                    className=" "
+                    alt="trädgård,blomma, hemservice"
+                    height={1099}
+                    width={1914}
+
+
+
+
+                />
 
             </div>
             {/* 
@@ -116,10 +147,10 @@ const TillsynAvFastighet = () => {
 
             {/* *************** Section 3 PINK ****************************/}
 
-            <div className="py-2 relative h-36 bg-pink-bg">
+            <div className="py-2 -mt-2 relative h-36 bg-pink-bg">
 
                 <h2 className=" text-center pt-10  text-3xl md:text-5xl">
-                    Njut av en tryggare vardag
+                    Njut av en bekvämare vardag
 
                 </h2>
 
@@ -134,7 +165,7 @@ const TillsynAvFastighet = () => {
     )
 }
 
-export default TillsynAvFastighet
+export default akersberga
 
 
 

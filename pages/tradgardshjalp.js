@@ -6,9 +6,10 @@ import { GiBeachBucket, GiGardeningShears, GiRake, GiVacuumCleaner } from 'react
 import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import { MdOutlineBedroomParent } from 'react-icons/md'
 import BannerTradgard from '../components/BannerTradgard'
-import DropDown from '../components/DropDown'
+import DropDownTradgard from '../components/DropDownTradgard'
 import DropTradgard from '../components/DropTradgard'
 import SectionContainer from '../components/SectionContainer'
+
 
 const tradgard = () => {
     return (
@@ -42,7 +43,7 @@ const tradgard = () => {
 
 
                     </div>
-                    <DropDown />
+                    <DropDownTradgard />
                     {/* <div className="py-2 -mt-2 relative ">
                         <div className="px-8">
                             <DropTradgard />

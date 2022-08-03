@@ -11,11 +11,11 @@ import SectionContainer from '@/components/SectionContainer'
 import DDTradgardAkersberga from '@/components/DDTradgardAkersberga'
 import { NextSeo } from 'next-seo'
 
-const akersberga = () => {
+const norrtalje = () => {
     return (
         <>
             <NextSeo
-                title="Trädgårdshjälp i Åkersberga, Österåker | Östanå Hemservice"
+                title="Trädgårdshjälp i Norrtälje | Östanå Hemservice"
                 description="Behöver du trädgårdshjälp i Åkersberga? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor mm. Även trädfällning."
                 openGraph={{
                     title: "Vi erbjuder trädgårdshjälp i åkersberga under hela säsongen.",
@@ -28,9 +28,9 @@ const akersberga = () => {
                     {/* <div className=" text-white " style={backgroundImageStyle}> */}
                     <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
                         <Image
-                            src="/img/tr-akersberga-01.webp"
+                            src="/img/house_1920.jpg"
                             className=" -z-[1001] "
-                            alt="trädgårdshjälp åkersberga"
+                            alt="trädgårdshjälp norrtalje"
 
 
                             layout="fill"
@@ -166,7 +166,7 @@ const akersberga = () => {
     )
 }
 
-export default akersberga
+export default norrtalje
 
 
 

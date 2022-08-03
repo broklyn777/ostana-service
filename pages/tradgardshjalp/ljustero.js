@@ -11,12 +11,12 @@ import SectionContainer from '@/components/SectionContainer'
 import DDTradgardAkersberga from '@/components/DDTradgardAkersberga'
 import { NextSeo } from 'next-seo'
 
-const akersberga = () => {
+const ljustero = () => {
     return (
         <>
             <NextSeo
-                title="Trädgårdshjälp i Åkersberga, Österåker | Östanå Hemservice"
-                description="Behöver du trädgårdshjälp i Åkersberga? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor mm. Även trädfällning."
+                title="Trädgårdshjälp Ljusterö| Östanå Hemservice"
+                description="Behöver du trädgårdshjälp på Ljusterö? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor mm. Även trädfällning."
                 openGraph={{
                     title: "Vi erbjuder trädgårdshjälp i åkersberga under hela säsongen.",
                 }}
@@ -28,7 +28,7 @@ const akersberga = () => {
                     {/* <div className=" text-white " style={backgroundImageStyle}> */}
                     <div className="absolute top-0 right-0 left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
                         <Image
-                            src="/img/tr-akersberga-01.webp"
+                            src="/img/tr-ljustero-01.webp"
                             className=" -z-[1001] "
                             alt="trädgårdshjälp åkersberga"
 
@@ -41,16 +41,16 @@ const akersberga = () => {
 
                     </div>
 
-
-
+                    <h1 className="font-normal pl-8 hidden md:block">Trädgårdshjälp Ljusterö</h1>
+                    <h1 className="font-normal md:hidden">Trädgårdshjälp Ljusterö</h1>
 
                     <div className=" text-white px-8 py-16 mt-7 -z-20">
 
                         <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
 
-                            <h1 className=" text-4xl md:text-6xl md:font-normal">
-                                Trädgårdshjälp i Åkersberga?
-                            </h1>
+                            <h2 className=" text-4xl md:text-6xl md:font-normal">
+                                Vi hjälper dig med trädgården!
+                            </h2>
 
                             <Cta />
                         </div>
@@ -61,9 +61,8 @@ const akersberga = () => {
                             <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Trädgårdshjälp med RUT-avdrag</span> </li>
                             <li className="flex items-center mb-4 leading-5"><div className="pr-2"><FaRegCheckCircle /> </div> <span> Lokalt baserade  </span> </li>
 
-
-
                         </ul>
+
                     </div>
 
 
@@ -93,7 +92,7 @@ const akersberga = () => {
 
 
                                 <p>
-                                    Klippa gräs, blåsa och kratta löv eller ihopsamling av trädgårdsavfall här i Åkersberga och Österåkers kommun. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar.
+                                    Östanå Hemservice erbjuder bekymmersfri vardag med vår  trädgårdshjälp på Ljuströ med omnejd.Vi hjälper er med att Klippa gräs, blåsa och kratta löv eller ihopsamling av trädgårdsavfall. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar.
 
                                 </p>
 
@@ -166,7 +165,7 @@ const akersberga = () => {
     )
 }
 
-export default akersberga
+export default ljustero
 
 
 

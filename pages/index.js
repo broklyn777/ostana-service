@@ -4,12 +4,13 @@ import Link from 'next/link'
 import { FaAngleRight } from 'react-icons/fa'
 import { GiBeachBucket, GiClothesline, GiGardeningShears, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
 import { HiOutlineChatAlt2 } from 'react-icons/hi'
-
+import { BiMapPin } from "react-icons/bi"
 import BannerHome from '../components/BannerHome'
 import DropHome from '../components/DropHome'
 import SectionContainer from '../components/SectionContainer'
 import ServiceHome from '../components/ServiceHome'
 import DropDownHome from '../components/DropDownHome'
+import DropOm from '../components/DropOm'
 
 const Home = () => {
   return (
@@ -68,27 +69,32 @@ const Home = () => {
                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
                   <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
                   ><HiOutlineChatAlt2 />   </div>
-                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Samtal</h3>
+                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Kontakt</h3>
                   <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Berätta för oss vad du vill ha hjälp med så återkommer vi till dig med ett prisförslag antingen med fast pris eller pris per timme. </p>
+                    <p>Östanå Hemservice är ett litet och lokalt familjeföretag vilket gör att du har alltid har kontakt med en och samma person.
+
+                    </p>
+                  </div>
+                </li>
+                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
+                  <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
+                  ><BiMapPin />   </div>
+                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Nära dig</h3>
+                  <div className=" leading-5 text-base w-full m-0 ">
+                    <p>Vi är ett litet och lokalt familjeföretag baserade i Roslags-kulla/Östanå mitt i mellan Åkersberga och Norrtälje. Att vi finns nära dig gör oss till ett klimatsmart val med låga omkostnader.
+
+                    </p>
                   </div>
                 </li>
                 <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
                   <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
                   ><GiBeachBucket />   </div>
-                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Arbetsplan</h3>
+                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">prisuppgift</h3>
                   <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Tillsammans kommer vi överens om en arbetsplan och ett tidsschema där vi anpassar oss efter dina behov.</p>
+                    <p> Vi ger alltid en prisuppgift så att du vet vad jobbet skulle kosta om du vill anlita oss. Behövs annan hjälp så kan vi lotsa dig vidare till var du kan vända dig för att få hjälp med en lösning.</p>
                   </div>
                 </li>
-                <li className="flex flex-col text-center items-center mt-12 md:ml-10 max-w-[310px] w-full">
-                  <div className="flex text-white w-36 h-36 font-light rounded-full items-center justify-center  mb-10 bg-blue-bg-soft text-6xl"
-                  ><GiGardeningShears />   </div>
-                  <h3 className="text-lg font-semibold w-full uppercase relative m-0 ">Kontinuerligt underhåll</h3>
-                  <div className=" leading-5 text-base w-full m-0 ">
-                    <p>Samma trädgårdsarbetare återkommer för att hålla trädgården i trim.</p>
-                  </div>
-                </li>
+
 
               </ul>
             </div>
@@ -133,7 +139,7 @@ const Home = () => {
       </div>
       <div className="py-2 -mt-2 relative bg-pink-bg ">
         <div className="px-8">
-          <DropDownHome />
+          <DropOm />
         </div>
       </div>
 

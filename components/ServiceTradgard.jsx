@@ -1,10 +1,10 @@
 
 import Link from './Link'
 
-import { FaAngleRight, FaHome } from 'react-icons/fa'
+import { FaAngleRight } from 'react-icons/fa'
 import { GiClothesline, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
 
-const ServiceHome = () => {
+const ServiceTradgard = () => {
   return (
      <section className="pb-10">
           <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
@@ -15,7 +15,7 @@ const ServiceHome = () => {
               <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
             </div>
             <div className=" mx-auto text-center max-w-2xl ">
-              <p >Vi erbjuder Hemservice med RUT-avdrag som omfattar trädgårdsarbeten, snöskottning, vårstädning, och inoljning av trädgårdsmöblerna. Även enklare data/mobil hjälp. 30 års erfarenhet av tomt och trädarbeten. Alltid samma person. </p>
+              <p >Vi erbjuder Hemservice med RUT-avdrag som omfattar trädgårdsarbeten, snöskottning, vårstädning, och inoljning av trädgårdsmöblerna. Även enklare data/mobil hjälp. Alltid samma person.  </p>
             </div>
           </div>
 
@@ -30,13 +30,12 @@ const ServiceHome = () => {
               </a>
             </Link>
             </li>
-            <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgardshjalp'>
+            {/* <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/stadning'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiVacuumCleaner /> </div> <span className="flex-1" > Tomtröjning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiVacuumCleaner /> </div> <span className="flex-1" > Städning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
-            </li>
-         
+            </li> */}
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/'>
               <a className='flex items-center'>
                 <div className="mr-6 w-8 h-8 items-center"> <GiClothesline /> </div> <span className="flex-1" > Seniorhjälp </span> <span className="text-gray-700 text-lg ml-4">  <FaAngleRight /> </span>
@@ -45,7 +44,7 @@ const ServiceHome = () => {
             </li>
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tillsyn-av-fastighet'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <FaHome /> </div> <span className="flex-1" > Tillsyn av fastighet </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiHammerNails /> </div> <span className="flex-1" > Tillsyn av fastighet </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>
@@ -55,14 +54,13 @@ const ServiceHome = () => {
               </a>
             </Link>
             </li>
-               <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgardshjalp'>
+
+            {/* <li className=" border-b-2 border-gray-light pb-2 items-center grid grid-flow-row ">   <Link href='/'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiHammerNails /> </div> <span className="flex-1" > Enklare hantverk</span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiWalk /> </div> <span className="flex-1" > Trädgårdshjälp Åkersberga </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
-            </li>
-
-      
+            </li> */}
 
 
 
@@ -73,4 +71,4 @@ const ServiceHome = () => {
   )
 }
 
-export default ServiceHome
+export default ServiceTradgard

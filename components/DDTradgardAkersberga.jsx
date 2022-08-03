@@ -14,7 +14,7 @@ const DropDown = () => {
                     <div className="mt-3">
                         <div className="text-gray-text text-base leading-6">
            
-                         Vi erbjuder flera olika sorters tjänster inom trädgårdshjälp. Vi hjälper till med att kratta löven, samla ihop trädgårdsavfall till kompost eller Bortforsling. <span className="font-semibold">Bortforsling </span> är dock ej giltigt för  RUT-avdrag.
+                         Vi erbjuder flera olika sorters tjänster inom <span className="font-semibold">trädgårdshjälp i Åkersberga </span> med omnejd. Vi hjälper gärna till med att kratta löven, samla ihop höstlöven till kompost eller Bortforsling. <span className="font-semibold">Bortforsling </span> är dock ej giltigt för  RUT-avdrag.
                     
                         </div>
                  

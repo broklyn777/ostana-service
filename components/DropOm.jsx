@@ -73,7 +73,7 @@ const DropOm = () => {
                     <div className="mt-3">
                         <p className="text-gray-text text-base leading-6">
            
-                      RUT-avdrag gäller för så kallade hushållsnära tjänster, inklusive flyttjänster, reparation och underhåll av vitvaror och it-utrustning. Material och övriga kostnader, såsom resekostnader och bortforsling av skräp, ger däremot inte rätt till RUT-avdrag. 
+                      RUT-avdrag gäller för så kallade hushållsnära tjänster, inklusive flyttjänster,gräsklippning, trädgårdshjälp, trädfällning, stubbfräsning, reparation och underhåll av vitvaror och it-utrustning. Material och övriga kostnader, såsom resekostnader och bortforsling av skräp, ger däremot inte rätt till RUT-avdrag. 
                       <div className="mb-8 text-base text-white dark:text-gray-400">
             <Link href="https://skatteverket.se/foretag/skatterochavdrag/rotochrut/gerarbetetratttillrutavdrag.4.2ef18e6a125660db8b080001531.html">
           Läs mer på  Skatteverket.se

@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className=' w-screen max-w-[1920px] h-20 md:bg-gray-light bg-black/0 text-white md:text-gray-text flex items-center justify-between text-2xl py-0    '>
             <div className="px-5 z-10">
-                <Link href="/">Östanå</Link>
+                <Link href="/">Östanå Hemservice</Link>
             </div>
 
             <ul className=" text-base md:text-lg hidden  md:block ">

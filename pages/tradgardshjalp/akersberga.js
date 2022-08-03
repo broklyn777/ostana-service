@@ -49,7 +49,7 @@ const akersberga = () => {
                         <div className=" max-w-xl grid grid-cols-1 gap-8 mb-8">
 
                             <h1 className=" text-4xl md:text-6xl md:font-normal">
-                                Trädgårdshjälp i Åkersberga?
+                                Trädgårdshjälp i Åkersberga
                             </h1>
 
                             <Cta />

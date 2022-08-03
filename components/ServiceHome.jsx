@@ -2,7 +2,7 @@
 import Link from './Link'
 
 import { FaAngleRight, FaHome } from 'react-icons/fa'
-import { GiClothesline, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
+import { GiChainsaw, GiClothesline, GiHammerNails, GiRake, GiVacuumCleaner, GiVibratingSmartphone, GiWalk } from 'react-icons/gi'
 
 const ServiceHome = () => {
   return (
@@ -32,7 +32,7 @@ const ServiceHome = () => {
             </li>
             <li className=" border-b-2 border-gray-light pb-2 items-center ">   <Link href='/tradgardshjalp'>
               <a className='flex items-center'>
-                <div className="mr-6 w-8 h-8 items-center"> <GiVacuumCleaner /> </div> <span className="flex-1" > Tomtröjning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
+                <div className="mr-6 w-8 h-8 items-center"> <GiChainsaw /> </div> <span className="flex-1" > Tomtröjning </span> <span className="text-gray-700 text-lg ml-4"> <FaAngleRight /> </span>
               </a>
             </Link>
             </li>

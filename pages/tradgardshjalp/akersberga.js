@@ -117,7 +117,7 @@ const akersberga = () => {
                 <Image
                     src="/img/rialav-1st.webp"
                     className=" "
-                    alt="trädgård,blomma, hemservice"
+                    alt="trädgårdshjälp åkersberga, gräsröjning"
                     height={1099}
                     width={1914}
 
@@ -131,7 +131,7 @@ const akersberga = () => {
                 <Image
                     src="/img/rialav-2nd.webp"
                     className=" "
-                    alt="trädgård,blomma, hemservice"
+                    alt="trädgårdshjälp österåkers kommun ,sjöutsikt"
                     height={1099}
                     width={1914}
 

@@ -38,7 +38,7 @@ const tradgard = () => {
                             <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
                         </div>
                         <div className=" mx-auto text-center max-w-2xl">
-                            <p >Östanå Hemservice erbjuder en bekymmersfri vardag med Lokal trädgårdshjälp i <Link className="text-orange-600 font-medium" href="/tradgardshjalp/akersberga"> Åkersberga</Link>, <Link className="text-orange-600 font-medium" href="/tradgardshjalp/ljustero">Ljusterö</Link> <Link className="text-orange-600 font-medium" href="/tradgardshjalp/norrtalje">och  Norrtälje</Link> .Vi hjälper er med att Klippa gräs, kratta löv eller ihopsamling av trädgårdsavfall. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar.</p>
+                            <p >Östanå Hemservice erbjuder en bekymmersfri vardag med Lokal trädgårdshjälp i <Link className="text-orange-600 font-medium" href="/tradgardshjalp/akersberga"> Åkersberga</Link>, <Link className="text-orange-600 font-medium" href="/tradgardshjalp/ljustero">Ljusterö</Link> <Link className="text-orange-600 font-medium" href="/tradgardshjalp/norrtalje">och  Norrtälje</Link> . Vi hjälper er med att Klippa gräs, kratta löv eller ihopsamling av trädgårdsavfall. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar.</p>
                         </div>
 
 

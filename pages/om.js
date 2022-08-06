@@ -8,6 +8,7 @@ import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
 import Link from 'next/link'
+import ServiceHome from '@/components/ServiceHome'
 
 
 const Om = () => {
@@ -125,7 +126,7 @@ const Om = () => {
             </SectionContainer>
         </div>
 
-        <ServiceOm />
+        <ServiceHome />
 
         {/* mobile */}
         <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">

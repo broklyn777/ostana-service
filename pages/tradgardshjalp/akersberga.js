@@ -1,7 +1,7 @@
 
 
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/Link'
 import { FaRegCheckCircle } from 'react-icons/fa'
 
 
@@ -93,7 +93,8 @@ const akersberga = () => {
 
 
                                 <p>
-                                    Klippa gräs, blåsa och kratta löv eller ihopsamling av trädgårdsavfall här i Åkersberga och Österåkers kommun. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar.
+                                    Östanå Hemservice erbjuder bekymmersfri vardag med vår trädgårdshjälp i Åkersberga med omnejd.Vi hjälper er med att klippa gräs, blåsa och kratta löv eller ihopsamling av trädgårdsavfall här i Åkersberga och Österåkers kommun. Vi har alltid med oss alla maskiner och redskap som behövs och vi tar med oss avfallet ifall ni önskar. <span className=""> Björn Jansson
+                                        <Link className="text-orange-600 font-medium" href="tel:0706898999"  > 070-689 89 99</Link></span>
 
                                 </p>
 

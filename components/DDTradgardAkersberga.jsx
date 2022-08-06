@@ -32,7 +32,7 @@ const DropDown = () => {
 
                     <div className="mt-3">
                         <div className="text-gray-text text-base leading-6">
-            Att ta hjälp med gräsklippningen är bra sätt att se till att gräsmattan blir sådär härligt grön och fin. Vi på Östanå Hemservice erbjuder regelbunden gräsklippning hjälpa dig  att få en grön och tät gräsmatta. Att boka gräsklippning är enkelt, och en av våra mest populära tjänster. Vi kan snabbt hjälpa till när tiden blir knapp, eller arbetet lite för tungt för att klara på egen hand. Hos oss bestämmer du själv hur ofta du vill ha hjälp.
+            Att ta hjälp med gräsklippningen är bra sätt att se till att gräsmattan blir sådär härligt grön och fin. Vi på Östanå Hemservice erbjuder regelbunden gräsklippning hjälpa dig  att få en grön och tät gräsmatta. Att boka gräsklippning är enkelt, och en av våra mest populära tjänster. Vi kan snabbt hjälpa till när tiden blir knapp, eller arbetet lite för tungt för att klara på egen hand. Hos oss bestämmer du själv hur ofta du vill ha hjälp. Ring Björn 070-689 89 99   
                     
                         </div>
                  

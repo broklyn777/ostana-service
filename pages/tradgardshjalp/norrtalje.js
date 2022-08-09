@@ -240,7 +240,7 @@ const norrtalje = () => {
                 <Image
                     src="/img/rialav-1st.webp"
                     className=" "
-                    alt="trädgård,blomma, hemservice"
+                    alt="trädgårdshjälp norrtälje, före tomtröjning av sly och gräs"
                     height={1099}
                     width={1914}
 
@@ -254,7 +254,7 @@ const norrtalje = () => {
                 <Image
                     src="/img/rialav-2nd.webp"
                     className=" "
-                    alt="trädgårdshjälp norrtalje, blomma, hemservice"
+                    alt="trädgårdshjälp norrtalje, tomtröjning av sly och gräs"
                     height={1099}
                     width={1914}
 

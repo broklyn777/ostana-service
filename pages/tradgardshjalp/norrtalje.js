@@ -15,7 +15,7 @@ const norrtalje = () => {
     return (
         <>
             <NextSeo
-                title="Trädgårdshjälp i Norrtälje | Östanå Hemservice"
+                title="Trädgårdshjälp Norrtälje | Östanå Hemservice"
                 description="Behöver du trädgårdshjälp i Norrtälje? Få gratis offert! Stubbfräsning, lövkrattning, gräsklippning, trädfällning och mycket mer!"
                 openGraph={{
                     title: "Vi erbjuder tomt och trädgårdsservice i Norrtälje under hela året.",

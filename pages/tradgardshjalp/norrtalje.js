@@ -83,7 +83,7 @@ const norrtalje = () => {
                     <section className="">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
                             <h2 className="pt-10  text-3xl md:text-5xl">
-                                trädgårdsservice
+                                Trädgårdsservice nära dig
 
 
                             </h2>

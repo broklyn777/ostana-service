@@ -15,7 +15,7 @@ const ServiceHome = () => {
               <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
             </div>
             <div className=" mx-auto text-center max-w-2xl ">
-              <p >Vi erbjuder Hemservice med RUT-avdrag som omfattar trädgårdsarbeten, snöskottning, vårstädning, och inoljning av trädgårdsmöblerna. Även enklare data/mobil hjälp. Åkersberga/Österåker och Norrtälje kommun. Lång erfarenhet av tomt och trädarbeten. <span className=""> Björn Jansson
+              <p >Vi erbjuder Hemservice med RUT-avdrag som omfattar trädgårdsarbeten, snöskottning, vårstädning, och inoljning av trädgårdsmöblerna. Även enklare data/mobil hjälp. Åkersberga/Österåker och Norrtälje kommun. Lång erfarenhet av tomt och trädarbeten. <span className=""> <br /> Björn Jansson
                                         <Link className="text-orange-600 font-medium" href="tel:0706898999"  > 070-689 89 99</Link></span>. </p>
             </div>
           </div>

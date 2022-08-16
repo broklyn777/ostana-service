@@ -55,23 +55,9 @@ const Om = () => {
         </div>
 
         {/* mobile */}
-        <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
+        <div className="  mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/bjprofil-003.webp"
-                className=" "
-                alt=""
-                height={1199}
-                width={1920}
-
-
-
-
-            />
-            {/* desktop */}
-        </div>
-        <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
-            <Image
-                src="/img/bjprofil-003.webp"
+                src="https://res.cloudinary.com/einar/image/upload/v1660602354/%C3%B6stan%C3%A5%20service/bjprofil-002_av3xes.webp"
                 className=" "
                 alt=""
                 height={1199}
@@ -83,6 +69,7 @@ const Om = () => {
             />
 
         </div>
+
 
 
         <ServiceHome />
@@ -134,7 +121,7 @@ const Om = () => {
 
         {/* mobile */}
 
-        <div className="-mt-16">
+        {/* <div className="-mt-16">
             <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
                 <Image
                     src="/img/rialav-2nd.webp"
@@ -147,10 +134,12 @@ const Om = () => {
 
 
                 />
-                {/* desktop */}
+
             </div>
-        </div>
-        <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
+        </div> */}
+
+        {/* desktop */}
+        {/* <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
             <Image
                 src="/img/rialav-2nd.webp"
                 className=" "
@@ -163,7 +152,7 @@ const Om = () => {
 
             />
 
-        </div>
+        </div> */}
 
         <div className="py-2 -mt-2 -mb-1  relative  bg-green-bg-soft ">
             <div className="px-8">

@@ -9,7 +9,9 @@ module.exports = {
     locales: ["sv"],
     defaultLocale: "sv",
   },
-
+  images: {
+    domains: ['res.cloudinary.com', 'rb.gy'],
+  },
 
 }
 

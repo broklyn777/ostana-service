@@ -4,6 +4,15 @@ const nextConfig = {
 }
 
 module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/om',
+        destination: '/kontakt',
+        permanent: true,
+      },
+    ]
+  },
 
   i18n: {
     locales: ["sv"],

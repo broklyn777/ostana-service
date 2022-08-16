@@ -32,8 +32,8 @@ const Navbar = () => {
                 </li>
 
                 <li className="inline md:mr-8 hover:text-green-700  ">
-                    <Link href="/om">
-                        <a>Om oss</a>
+                    <Link href="/kontakt">
+                        <a>Kontakt</a>
                     </Link>
                 </li>
 

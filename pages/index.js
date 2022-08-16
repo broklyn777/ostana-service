@@ -36,7 +36,7 @@ const Home = () => {
               loop muted />
           </div> */}
           <div className="w-4/5 min-w-[350px] pb-1 px-2 ml-8 -mt-8 ">
-            <img src="/img/bjprofil-003.webp" alt="östanå hemservice, trädgårdsservice"
+            <img src="https://res.cloudinary.com/einar/image/upload/v1660602354/%C3%B6stan%C3%A5%20service/bjprofil-002_av3xes.webp" alt="östanå hemservice, trädgårdsservice"
               className=" border-2 border-orange-600  rounded-2xl shadow-2xl -rotate-3" />
           </div>
         </div>
@@ -150,7 +150,7 @@ const Home = () => {
         />
 
       </div>
-      <div className="py-2 -mt-2 relative bg-pink-bg ">
+      <div className="py-2 -mt-2 relative bg-white ">
         <div className="px-8">
           <DropOm />
         </div>

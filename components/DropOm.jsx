@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from './Link'
 
 
 const DropOm = () => {
@@ -55,7 +55,7 @@ const DropOm = () => {
                     <div className="mt-3">
                         <p className="text-gray-text text-base leading-6">
            
-                        Ja, vi tar med allt vi behöver så som gräsklippare, stegar, verktyg, gödsel, säckar etc. Vid vattning behöver ni dock tillhandahålla slang och tillgång till vatten.
+                        Ja, vi tar med allt vi behöver så som gräsklippare, röjsåg, spadar, kratta, trimmer, säckar för avfall etc. Vid vattning behöver ni dock tillhandahålla slang och tillgång till vatten.
 
                         </p>
                  
@@ -74,7 +74,7 @@ const DropOm = () => {
                         <p className="text-gray-text text-base leading-6">
            
                       RUT-avdrag gäller för så kallade hushållsnära tjänster, inklusive flyttjänster,gräsklippning, trädgårdshjälp, trädfällning, stubbfräsning, reparation och underhåll av vitvaror och it-utrustning. Material och övriga kostnader, såsom resekostnader och bortforsling av skräp, ger däremot inte rätt till RUT-avdrag. 
-                      <div className="mb-8 text-base text-white dark:text-gray-400">
+                      <div className="mb-8 text-base text-orange-600 dark:text-gray-400">
             <Link href="https://skatteverket.se/foretag/skatterochavdrag/rotochrut/gerarbetetratttillrutavdrag.4.2ef18e6a125660db8b080001531.html">
           Läs mer på  Skatteverket.se
             </Link>
@@ -97,7 +97,23 @@ const DropOm = () => {
                     <div className="mt-3">
                         <p className="text-gray-text text-base leading-6">
            
-                     Om uppdraget kräver ett kundbesök, så kommer vi självklart ut och tittar. Annars räcker det oftast med en beskrivning och eventuellt bild som du kan skicka till oss, så återkommer vi med ett prisförslag till dig.
+                     Om ni önskar ett besök, så kommer vi självklart hem till er och tittar. Ofta räcker det med en beskrivning och eventuellt bild som du kan skicka till oss, så återkommer vi med ett prisförslag till dig.
+
+                        </p>
+                 
+                    </div>
+
+                </details>
+
+</div>
+<div className="">
+                <details className="p-4 rounded-lg ">
+                    <summary className=" pt-5 cursor-pointer text-2xl text-gray-text leading-6">  Kommer jag att veta innan vem som kommer att utföra hemservicen hos mig? </summary>
+
+                    <div className="mt-3">
+                        <p className="text-gray-text text-base leading-6">
+           
+                  Ja, du kommer att se namn, foto och få telefonnummer som orderbekräftelse på mail. Men de allra flesta trädgårdsarbeten och data/it utförs av Björn <Link className="text-orange-600 font-medium" href="tel:0706898999"  > 070-689 89 99 </Link>
 
                         </p>
                  

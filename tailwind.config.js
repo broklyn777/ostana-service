@@ -16,6 +16,9 @@ module.exports = {
       black: '#000000',
       white: '#ffffff',
       'pink-600': '#db2777',
+
+      'orange-50': '#fff7ed',
+      'orange-100': '#ffedd5',
       'orange-600': '#ea580c',
       'green-700': '#15803d',
       'blue-bg': '#99becc',
@@ -31,6 +34,7 @@ module.exports = {
       'gray-text': '#374151',
       'gray-light': '#e5e7eb',
       'gray-400': '#cbd5e1',
+
 
     },
 

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Link from '@/components/Link'
 
 import { SiMaildotru } from 'react-icons/si'
 import { FaPhoneAlt } from 'react-icons/fa'
@@ -7,14 +7,14 @@ import { MdLocationPin } from 'react-icons/md'
 import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
-import Link from 'next/link'
+
 import ServiceHome from '@/components/ServiceHome'
 
 
 const Om = () => {
     return (<>
         {/******************* Banner ************/}
-        < div className="-mt-20 min-h-[300px] md:mt-0  px-8  text-white py-16 relative" >
+        < div className="-mt-20 min-h-[300px] md:mt-0  px-8  text-gray-text py-16 relative" >
 
             <div className="space-y-6  ">
                 {/* <div className=" text-white " style={backgroundImageStyle}> */}
@@ -25,7 +25,7 @@ const Om = () => {
 
 
 
-                <div className=" text-white px-8 text-center pt-6  -z-20">
+                <div className=" text-gray-text px-8 text-center pt-6  -z-20">
 
                     <h1 className=" tracking-tight text-4xl md:text-6xl md:font-normal">
                         Kontakta oss
@@ -36,8 +36,11 @@ const Om = () => {
                     <p className=" border-[1px] rounded-xl border-white mx-auto max-w-[72px]"></p>
                 </div>
 
-                <p className="text-center text-base hidden md:block ">Har dufrågor eller funderingar - tveka inte att höra av dig till oss.  <br></br>  Björn Jansson  <Link href="tel:0706898999">070-689 89 99</Link> </p>
-                <p className="text-center text-base md:hidden ">Har dufrågor eller funderingar - tveka inte att höra av dig till oss.  Björn Jansson  <Link href="tel:0706898999">070-689 89 99</Link> </p>
+                <p className="text-center text-base  ">Har du en fråga om våra tjänster eller undrar då på något angående Rut-avdrag?  Du är alltid välkommen att höra av dig till  <span className="">  Björn Jansson på
+                    <Link className="text-orange-600 font-medium" href="tel:0706898999"  > 070-689 89 99</Link></span>  eller <a href="mailto:info@ostanahemservice.se"></a>
+                    <span className="">
+                        <Link className="text-orange-600 font-medium" href="mailto:info@ostanahemservice.se" > info@ostanahemservice.se</Link></span>
+                </p>
 
 
 
@@ -54,7 +57,7 @@ const Om = () => {
         {/* mobile */}
         <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/personalostana-003.webp"
+                src="/img/bjprofil-003.webp"
                 className=" "
                 alt=""
                 height={1199}
@@ -68,7 +71,7 @@ const Om = () => {
         </div>
         <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/personalostana-003.webp"
+                src="/img/bjprofil-003.webp"
                 className=" "
                 alt=""
                 height={1199}
@@ -80,9 +83,12 @@ const Om = () => {
             />
 
         </div>
+
+
+        <ServiceHome />
         {/* *************** Section 3 PINK ****************************/}
 
-        <div className=" bg-gray-light relative  ">
+        <div className=" bg-pink-bg-soft relative  ">
             <SectionContainer>
 
                 <section className=" max-w-[400px] sm:max-w-none">
@@ -126,26 +132,27 @@ const Om = () => {
             </SectionContainer>
         </div>
 
-        <ServiceHome />
-
         {/* mobile */}
-        <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
-            <Image
-                src="/img/blomma-kontakt.png"
-                className=" "
-                alt=""
-                height={1199}
-                width={1920}
+
+        <div className="-mt-16">
+            <div className=" md:hidden mx-auto -z-10 max-w-[1920px] ">
+                <Image
+                    src="/img/rialav-2nd.webp"
+                    className=" "
+                    alt=""
+                    height={1199}
+                    width={1920}
 
 
 
 
-            />
-            {/* desktop */}
+                />
+                {/* desktop */}
+            </div>
         </div>
         <div className=" hidden md:block mx-auto -z-10 max-w-[1920px] ">
             <Image
-                src="/img/blomma-kontakt@2x.png"
+                src="/img/rialav-2nd.webp"
                 className=" "
                 alt=""
                 height={1199}
@@ -158,7 +165,7 @@ const Om = () => {
 
         </div>
 
-        <div className="py-2 -mt-2 -mb-1  relative  bg-pink-bg ">
+        <div className="py-2 -mt-2 -mb-1  relative  bg-green-bg-soft ">
             <div className="px-8">
                 <DropOm />
             </div>

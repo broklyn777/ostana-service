@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
@@ -35,7 +36,7 @@ const Home = () => {
               loop muted />
           </div> */}
           <div className="w-4/5 min-w-[350px] pb-1 px-2 ml-8 -mt-8 ">
-            <img src="/img/bjprofil-003.webp" alt="trädgårdshjälp"
+            <img src="/img/bjprofil-003.webp" alt="östanå hemservice, trädgårdsservice"
               className=" border-2 border-orange-600  rounded-2xl shadow-2xl -rotate-3" />
           </div>
         </div>

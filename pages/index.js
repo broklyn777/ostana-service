@@ -27,6 +27,18 @@ const Home = () => {
       </div>
 
       <div className="py-2   bg-gray-light">
+
+        <div className="items-center ">
+
+          {/* <div className=" w-3/5 min-w-[360px] px-3  -mt-16">
+            <video src="https://youtu.be/aallsQ7X4IM" alt="YouTuber cheerfully giving a shaka" className=" object-cover   rounded-2xl shadow-2xl rotate-3" autoPlay
+              loop muted />
+          </div> */}
+          <div className="w-4/5 min-w-[350px] pb-1 px-2 ml-8 -mt-8 ">
+            <img src="/img/bjprofil-003.webp" alt="trädgårdshjälp"
+              className=" border-2 border-orange-600  rounded-2xl shadow-2xl -rotate-3" />
+          </div>
+        </div>
         <SectionContainer>
 
           <section className="">

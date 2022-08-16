@@ -15,6 +15,7 @@ module.exports = {
       primary: '#FF6363',
       black: '#000000',
       white: '#ffffff',
+      'whitebone': '#f4f4f4',
       'pink-600': '#db2777',
 
       'orange-50': '#fff7ed',

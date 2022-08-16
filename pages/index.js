@@ -27,7 +27,7 @@ const Home = () => {
         <BannerHome />
       </div>
 
-      <div className="py-2   bg-gray-light">
+      <div className="py-2   bg-whitebone">
 
         <div className="items-center ">
 
@@ -150,7 +150,7 @@ const Home = () => {
         />
 
       </div>
-      <div className="py-2 -mt-2 relative bg-white ">
+      <div className="py-2 -mt-2 relative bg-whitebone ">
         <div className="px-8">
           <DropOm />
         </div>

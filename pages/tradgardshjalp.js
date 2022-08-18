@@ -8,6 +8,7 @@ import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import { MdOutlineBedroomParent } from 'react-icons/md'
 import BannerTradgard from '../components/BannerTradgard'
 import DropDownTradgard from '../components/DropDownTradgard'
+import BjProfil from '../components/BjProfil'
 
 import SectionContainer from '../components/SectionContainer'
 
@@ -30,6 +31,7 @@ const tradgard = () => {
 
             <SectionContainer>
                 <section className="">
+                    <BjProfil />
                     <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
                         <h1 className="pt-10  text-3xl md:text-5xl">
                             Trädgårdshjälp med RUT-avdrag

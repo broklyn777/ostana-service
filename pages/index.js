@@ -29,17 +29,17 @@ const Home = () => {
 
       <div className="py-2   bg-whitebone">
 
-        <div className="items-center  ">
 
-          {/* <div className=" w-3/5 min-w-[360px] px-3  -mt-16">
+
+        {/* <div className=" w-3/5 min-w-[360px] px-3  -mt-16">
             <video src="https://youtu.be/aallsQ7X4IM" alt="YouTuber cheerfully giving a shaka" className=" object-cover   rounded-2xl shadow-2xl rotate-3" autoPlay
               loop muted />
           </div> */}
-          <div className="w-4/5 min-w-[350px] pb-1 px-2 ml-8 -mt-8 ">
-            <img src="https://res.cloudinary.com/einar/image/upload/c_scale,w_1460/v1660602354/%C3%B6stan%C3%A5%20service/bjprofil-002_av3xes.webp" alt="östanå hemservice, trädgårdsservice"
-              className=" border-2 border-orange-600  rounded-2xl shadow-2xl -rotate-3" />
-          </div>
+        <div className="w-4/5 min-w-[350px] pb-1 px-2 ml-8 -mt-8 ">
+          <img src="https://res.cloudinary.com/einar/image/upload/c_scale,w_1460/v1660602354/%C3%B6stan%C3%A5%20service/bjprofil-002_av3xes.webp" alt="östanå hemservice, trädgårdsservice"
+            className=" border-2 border-orange-600  rounded-2xl shadow-2xl -rotate-3" />
         </div>
+
         <SectionContainer>
 
           <section className="">

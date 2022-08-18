@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import Link from '@/components/Link'
 
@@ -7,7 +8,7 @@ import { MdLocationPin } from 'react-icons/md'
 import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
-
+import Form from '../components/Form'
 import ServiceHome from '@/components/ServiceHome'
 
 
@@ -55,19 +56,24 @@ const Kontakt = () => {
         </div>
 
         {/* mobile */}
-        <div className="  mx-auto -z-10 max-w-[1920px] ">
-            <Image
-                src="https://res.cloudinary.com/einar/image/upload/v1660602354/%C3%B6stan%C3%A5%20service/bjprofil-002_av3xes.webp"
-                className=" "
-                alt=""
-                height={1199}
-                width={1920}
+        <div className=" flex flex-col md:flex-row  mx-auto -z-10 max-w-[1920px] ">
+            <div className=" md:w-3/6">
+                <Image
+                    src="https://res.cloudinary.com/einar/image/upload/v1660602354/%C3%B6stan%C3%A5%20service/bjprofil-002_av3xes.webp"
+                    className=" "
+                    alt=""
+
+                    height={1199}
+                    width={1920}
 
 
 
 
-            />
-
+                />
+            </div>
+            <div className="md:w-3/6">
+                <Form />
+            </div>
         </div>
 
 

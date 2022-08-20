@@ -9,7 +9,9 @@ import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
 import Form from '../components/Form'
+import Form2 from '../components/Form2'
 import ServiceHome from '@/components/ServiceHome'
+import ContactUs from '../components/ContactUs'
 
 
 const Kontakt = () => {
@@ -72,7 +74,8 @@ const Kontakt = () => {
                 />
             </div>
             <div className="md:w-3/6">
-                <Form />
+                {/* <Form /> */}
+                {/* <Form2 /> */}
             </div>
         </div>
 
@@ -125,7 +128,7 @@ const Kontakt = () => {
             </SectionContainer>
         </div>
 
-
+        {/* <ContactUs /> */}
 
         <div className="py-2 -mt-4 -mb-1  relative  bg-green-bg-soft ">
             <div className="px-8">

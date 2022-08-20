@@ -11,34 +11,37 @@ export default function Footer() {
 
      
         </div>
-        <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <div>{siteMetadata.author}</div>
+        <div className="mb-2 flex space-x-2 text-[12px] text-gray-500 dark:text-gray-400">
+       
+           <Link href="tel:0706898999">070-689 89 99</Link>
           <div>{` • `}</div>
-             <Link href="tel:0706898999">070-689 89 99</Link>
+               <div> <p>info@ostanahemservice.se</p></div>
           <div>{` • `}</div>
-          <p>{siteMetadata.title}</p>
+          <p>
+559109-3256
+</p>
           
 
         </div>
        
         <div className='flex flex-1'>
           <div className=" text-sm  text-gray-500 dark:text-gray-400">
-          <div>{`© ${new Date().getFullYear()}`}  </div>
+          <div>{`© ${siteMetadata.title} ${new Date().getFullYear()}`}  </div>
           </div>
-          <div>{`  `}</div>
-          <div className=" text-sm px-2 text-gray-500 dark:text-gray-400">
+    
+          {/* <div className=" text-sm px-2 text-gray-500 dark:text-gray-400">
             <p>
             |  Östanå Gård |
             </p>
-          </div>
-          <div>{`  `}</div>
-          <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
+          </div> */}
+          {/* <div>{`  `}</div> */}
+          {/* <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
             <p>
             Åkersberga
             </p>
            
 
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

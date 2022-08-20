@@ -20,10 +20,9 @@ export default async (req, res) => {
     from: 'info@ostanahemservice.se',
     subject: 'Nytt jobb!!!',
     text: message,
-
     html: message.replace(/\r\n/g, '<br>'),
   });
-  res.status(200).json({ message: 'Ok' });
+  res.status(200).json({ status: 'Ok' });
 
 }
 

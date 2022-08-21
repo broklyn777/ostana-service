@@ -27,7 +27,7 @@ const Navbar = () => {
 
                 <li className="inline md:mr-8 hover:text-green-700  ">
                     <Link href="/tillsyn-av-fastighet">
-                        <a>Tillsyn av fastighet</a>
+                        <a>Hustillsyn</a>
                     </Link>
                 </li>
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                         <Link href="/tjanster">Fler tjänster</Link>
                     </li> */}
                     <li className="">
-                        <Link href="/tillsyn-av-fastighet">Tillsyn av fastighet</Link>
+                        <Link href="/tillsyn-av-fastighet">Hustillsyn</Link>
                     </li>
                     <li className="">
                         <Link href="/kontakt">Kontakt</Link>

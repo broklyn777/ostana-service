@@ -75,16 +75,16 @@ const tradgard = () => {
             {/* <div className=" -mt-12">
                 <Player url="https://res.cloudinary.com/einar/video/upload/v1661077620/%C3%B6stan%C3%A5%20service/stihl-ro%CC%88jsa%CC%8Ag-02-med_ofsh67.mp4" />
             </div> */}
-            <div className="grid md:grid-cols-2 md:gap-2  ">
-                <div className="">
+            <div className="grid md:grid-cols-2 gap-1  ">
+                <div className="   ">
                     <Player url="https://res.cloudinary.com/einar/video/upload/v1661077620/%C3%B6stan%C3%A5%20service/stihl-ro%CC%88jsa%CC%8Ag-02-med_ofsh67.mp4" />
                 </div>
-                <div className=" md:py-3 -mt-4 ">
+                <div className=" -mt-4 md:mt-0 md:py-2 lg:py-3 xl:py-5 ">
                     <Image
                         src="https://res.cloudinary.com/einar/image/upload/c_scale,w_3287/v1658918287/%C3%B6stan%C3%A5%20service/parkro%CC%88jning-furusund_ezqwb9.webp"
                         // src="/img/parkröjning-furusund_.webp"
                         className=""
-                        alt="trädgård,blomma, hemservice"
+                        alt="trädgårdsservice,trädgårdshjälp, hemservice"
                         height={1000}
                         width={1920}
 
@@ -93,6 +93,35 @@ const tradgard = () => {
 
                     />
                 </div>
+                {/* <div className=" md:py-2  ">
+                    <Image
+                        src="https://res.cloudinary.com/einar/image/upload/c_scale,w_3287/v1658918287/%C3%B6stan%C3%A5%20service/parkro%CC%88jning-furusund_ezqwb9.webp"
+                        // src="/img/parkröjning-furusund_.webp"
+                        className=""
+                        alt="trädgårdsservice,trädgårdshjälp, hemservice"
+                        height={1000}
+                        width={1920}
+
+
+
+
+                    />
+                </div>
+                <div className=" md:py-2  ">
+                    <Image
+                        src="https://res.cloudinary.com/einar/image/upload/c_scale,w_3287/v1658918287/%C3%B6stan%C3%A5%20service/parkro%CC%88jning-furusund_ezqwb9.webp"
+                        // src="/img/parkröjning-furusund_.webp"
+                        className=""
+                        alt="trädgårdsservice,trädgårdshjälp, hemservice"
+                        height={1000}
+                        width={1920}
+
+
+
+
+                    />
+                </div> */}
+
 
             </div>
             {/* *************** Section 3 PINK ****************************/}

@@ -11,6 +11,7 @@ import DropDownTradgard from '../components/DropDownTradgard'
 import BjProfil from '../components/BjProfil'
 
 import SectionContainer from '../components/SectionContainer'
+import Player from '../components/Player'
 
 
 const tradgard = () => {
@@ -71,6 +72,14 @@ const tradgard = () => {
 
             </div>
 
+            <div className="grid grid-cols-2 gap-2 ">
+                <div>
+                    <Player url="https://youtu.be/L2UptkJurR4" />
+                </div>
+                <div className="rounded-full">
+                    <Player url="https://res.cloudinary.com/einar/video/upload/v1661077620/%C3%B6stan%C3%A5%20service/stihl-ro%CC%88jsa%CC%8Ag-02-med_ofsh67.mp4" />
+                </div>
+            </div>
             {/* *************** Section 3 PINK ****************************/}
 
             <div className="py-4 -mt-2 relative bg-green-bg ">

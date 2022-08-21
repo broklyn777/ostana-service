@@ -12,10 +12,18 @@ import Form from '../components/Form'
 import Form2 from '../components/Form2'
 import ServiceHome from '@/components/ServiceHome'
 import ContactUs from '../components/ContactUs'
+import { NextSeo } from 'next-seo'
 
 
 const Kontakt = () => {
     return (<>
+        <NextSeo
+            title="Kontakt | Trädgårdshjälp rut-avdrag | Östanå Hemservice"
+            description="Behöver du trädgårdshjälp? Östanå Hemservice hjälper dig. Vi fräser stubbar, krattar löv, vattnar, klipper gräsmattor och rabatter mm. Även trädfällning."
+            openGraph={{
+                title: "Vi erbjuder trädgårdshjälp under hela säsongen.",
+            }}
+        />
         {/******************* Banner ************/}
         < div className="-mt-20 min-h-[300px] md:mt-0  px-8  text-white py-16 relative" >
 

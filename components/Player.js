@@ -11,7 +11,7 @@ const Player = ({ url }) => {
                 loop={true}
                 controls={false}
                 muted={true}
-                playing={true}
+                playing={false}
 
 
             />

@@ -81,9 +81,9 @@ const Kontakt = () => {
 
                 />
             </div>
-            <div className="md:w-3/6">
+            <div className="  md:w-3/6">
                 {/* <Form /> */}
-                {/* <Form2 /> */}
+                <Form2 />
             </div>
         </div>
 

@@ -15,7 +15,7 @@ const ServiceTradgard = () => {
               <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>
             </div>
             <div className=" mx-auto text-center max-w-2xl ">
-              <p >Vi erbjuder Hemservice med RUT-avdrag som omfattar trädgårdsarbeten, snöskottning, vårstädning, och inoljning av trädgårdsmöblerna. Även enklare data/mobil hjälp. Alltid samma person.  </p>
+              <p >Vi erbjuder Hemservice med RUT-avdrag som omfattar trädgårdsarbeten, snöskottning, vårstädning och även enklare data/mobil hjälp.  Alltid samma person.  </p>
             </div>
           </div>
 

@@ -22,7 +22,7 @@ async function handleOnSubmit(e) {
    <div className=" bg-gray-100 flex flex-col justify-center  px-6 lg:px-8">
   
 
-    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Vill du bli kontaktad?</h2>
+    <h2 className="mt-6 text-center text-3xl font-extrabold text-white">Vill du bli kontaktad?</h2>
     <p className="mt-2 text-center text-sm text-gray-600 max-w">
       Fyll i fälten nedan
       {/* <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">logga in</a> */}

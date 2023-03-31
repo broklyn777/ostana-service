@@ -18,7 +18,7 @@ export default async (req, res) => {
   await mail.send({
     to: 'info@ostanahemservice.se',
     from: 'info@ostanahemservice.se',
-    subject: 'Nytt jobb!!!',
+    subject: 'yey...ett Nytt jobb!!!',
     text: message,
 
     html: message.replace(/\r\n/g, '<br>'),

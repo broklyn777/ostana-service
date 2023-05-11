@@ -10,9 +10,9 @@ const Navbar = () => {
             </div>
 
             <ul className=" text-base md:text-lg hidden  md:block ">
-                <li className="inline mr-8 hover:text-green-700 ">
+                {/* <li className="inline mr-8 hover:text-green-700 ">
                     <Link href="/it-data">IT & Data</Link>
-                </li>
+                </li> */}
                 {/* 
                 <li className="inline mr-8 hover:text-green-700  ">
                     <Link href="/stadning">
@@ -52,9 +52,9 @@ const Navbar = () => {
                     <li className="">
                         <Link href="/">Hem</Link>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                         <Link href="/it-data">IT & Data</Link>
-                    </li>
+                    </li> */}
                     {/* <li className="">
                         <Link href="/stadning">Städning</Link>
                     </li> */}

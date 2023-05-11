@@ -11,6 +11,7 @@ import DropOm from '../components/DropOm'
 // import Form from '../components/Form'
 // import Form2 from '../components/Form2'
 import ServiceHome from '@/components/ServiceHome'
+import DDownKontakt from '@/components/DDownKontakt'
 import ContactUs from '../components/ContactUs'
 import { NextSeo } from 'next-seo'
 
@@ -84,8 +85,7 @@ const Kontakt = () => {
                 />
             </div>
             <div className="  md:w-3/6">
-                {/* <Form /> */}
-                {/* <Form2 /> */}
+              {/* <DDownKontakt/> */}
             </div>
         </div>
 

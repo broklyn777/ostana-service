@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'

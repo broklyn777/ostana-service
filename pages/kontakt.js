@@ -8,11 +8,12 @@ import { MdLocationPin } from 'react-icons/md'
 import SectionContainer from '../components/SectionContainer'
 import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
-import Form from '../components/Form'
-import Form2 from '../components/Form2'
+// import Form from '../components/Form'
+// import Form2 from '../components/Form2'
 import ServiceHome from '@/components/ServiceHome'
 import ContactUs from '../components/ContactUs'
 import { NextSeo } from 'next-seo'
+
 
 
 const Kontakt = () => {
@@ -25,11 +26,11 @@ const Kontakt = () => {
             }}
         />
         {/******************* Banner ************/}
-        < div className="-mt-20 min-h-[300px] md:mt-0  px-8  text-white py-16 relative" >
+        <div className="-mt-20 min-h-[300px] md:mt-0  px-8  text-white py-16 relative" >
 
             <div className="space-y-6  ">
                 {/* <div className=" text-white " style={backgroundImageStyle}> */}
-                <div className="absolute top-0 right-0 bg-green-bg left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
+                <div className="absolute top-0 right-0 bg-gray-text left-0 bottom-0 -z-10 mx-auto max-w-[1920px] ">
 
 
                 </div>
@@ -47,7 +48,8 @@ const Kontakt = () => {
                     <p className=" border-[1px] rounded-xl border-white mx-auto max-w-[72px]"></p>
                 </div>
 
-                <p className="text-center text-base  ">Har du en fråga om våra tjänster eller undrar då på något angående Rut-avdrag?  Du är alltid välkommen att höra av dig till  <span className="">  Björn Jansson på
+                <p className="text-center text-base  ">
+ Har du en fråga om våra tjänster eller undrar då på något angående Rut-avdrag?  Du är alltid välkommen att höra av dig till  <span className="">  Björn Jansson på
                     <Link className="text-orange-600 font-medium" href="tel:0706898999"  > 070-689 89 99 </Link></span>  eller
                     <span className="">
                         <Link className="text-orange-600 font-medium" href="mailto:info@ostanahemservice.se" >  info@ostanahemservice.se</Link></span>
@@ -83,7 +85,7 @@ const Kontakt = () => {
             </div>
             <div className="  md:w-3/6">
                 {/* <Form /> */}
-                <Form2 />
+                {/* <Form2 /> */}
             </div>
         </div>
 

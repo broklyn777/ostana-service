@@ -9,7 +9,7 @@ const ServiceHome = () => {
      <section className="pb-10">
           <div className="text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
             <h2 className="pt-2 text-3xl md:text-5xl">
-              Vad vill du ha hjälp med?
+              Vad kan vi hjälpa dig med?
             </h2>
             <div>
               <p className=" border-[1px] rounded-xl border-gray-text mx-auto max-w-[72px]"></p>

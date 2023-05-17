@@ -14,9 +14,13 @@ import ServiceHome from '../components/ServiceHome'
 import DropDownHome from '../components/DropDownHome'
 import DropOm from '../components/DropOm'
 
+
 const Home = () => {
   return (
     <>
+   
+
+
       <NextSeo
         title="Trädgårdsskötsel | Tomt och hustillsyn | Östanå Hemservice"
         description="Östanå Hemservice hjälper dig med tillsyn av hus och tomt. Vi klipper gräs, blåser löv, rensar ogräs och röjer sly mm. RUT-avdrag. Alltid samma person."

@@ -10,26 +10,14 @@ const Navbar = () => {
             </div>
 
             <ul className=" text-base md:text-lg hidden  md:block ">
-                {/* <li className="inline mr-8 hover:text-green-700 ">
-                    <Link href="/it-data">IT & Data</Link>
-                </li> */}
-                {/* 
-                <li className="inline mr-8 hover:text-green-700  ">
-                    <Link href="/stadning">
-                        <a>Städning</a>
-                    </Link>
-                </li> */}
+               
                 <li className="inline mr-8 hover:text-green-700  ">
                     <Link href="/tradgardshjalp">
                         <a>Trädgård</a>
                     </Link>
                 </li>
 
-                <li className="inline md:mr-8 hover:text-green-700  ">
-                    <Link href="/tillsyn-av-fastighet">
-                        <a>Hustillsyn</a>
-                    </Link>
-                </li>
+           
 
                 <li className="inline md:mr-8 hover:text-green-700  ">
                     <Link href="/kontakt">
@@ -52,21 +40,11 @@ const Navbar = () => {
                     <li className="">
                         <Link href="/">Hem</Link>
                     </li>
-                    {/* <li className="">
-                        <Link href="/it-data">IT & Data</Link>
-                    </li> */}
-                    {/* <li className="">
-                        <Link href="/stadning">Städning</Link>
-                    </li> */}
+               
                     <li className="">
                         <Link href="/tradgardshjalp">Trädgård</Link>
                     </li>
-                    {/* <li className="">
-                        <Link href="/tjanster">Fler tjänster</Link>
-                    </li> */}
-                    <li className="">
-                        <Link href="/tillsyn-av-fastighet">Hustillsyn</Link>
-                    </li>
+                 
                     <li className="">
                         <Link href="/kontakt">Kontakt</Link>
                     </li>

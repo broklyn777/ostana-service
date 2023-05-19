@@ -16,6 +16,11 @@ const Navbar = () => {
                         <a>Trädgård</a>
                     </Link>
                 </li>
+                 {/* <li className="inline mr-8 hover:text-green-700  ">
+                    <Link href="/om">
+                        <a>Om Mig</a>
+                    </Link>
+                </li> */}
 
            
 

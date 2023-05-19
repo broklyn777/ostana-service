@@ -8,6 +8,7 @@ import { HiOutlineChatAlt2 } from 'react-icons/hi'
 import { MdOutlineBedroomParent } from 'react-icons/md'
 import BannerTradgard from '../components/BannerTradgard'
 import DropDownTradgard from '../components/DropDownTradgard'
+
 import BjProfil from '../components/BjProfil'
 
 import SectionContainer from '../components/SectionContainer'
@@ -33,6 +34,8 @@ const tradgard = () => {
             <SectionContainer>
                 <section className="">
                     <BjProfil />
+
+      
                     <div className=" text-gray-text  grid gap-4 grid-cols-1 text-center mt-6 md:mt-20 mb-4 md:mb-16">
                         <h1 className="pt-10  text-3xl md:text-5xl">
                             Trädgårdshjälp med RUT-avdrag
@@ -47,6 +50,11 @@ const tradgard = () => {
 
 
                     </div>
+                    
+
+
+             
+             
                     <DropDownTradgard />
                     {/* <div className="py-2 -mt-2 relative ">
                         <div className="px-8">
@@ -132,7 +140,7 @@ const tradgard = () => {
                     <section className=" max-w-[400px] sm:max-w-none">
                         <div className=" text-gray-text  grid gap-4 grid-cols-1  mt-6 md:mt-20 mb-4 md:mb-16">
                             <h2 className=" text-center pt-12 text-3xl lg:text-5xl">
-                                Så fungerar trägårdshjälpen
+                                Så fungerar Trädgårdshjälpen
 
                             </h2>
                             <div>

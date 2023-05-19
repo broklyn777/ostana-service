@@ -10,7 +10,7 @@ import ServiceOm from '../components/ServiceOm'
 import DropOm from '../components/DropOm'
 // import Form from '../components/Form'
 // import Form2 from '../components/Form2'
-import ServiceHome from '@/components/ServiceHome'
+
 import DDownKontakt from '@/components/DDownKontakt'
 import ContactUs from '../components/ContactUs'
 import { NextSeo } from 'next-seo'
@@ -91,7 +91,7 @@ const Kontakt = () => {
 
 
 
-        <ServiceHome />
+
         {/* *************** Section 3 PINK ****************************/}
 
         <div className=" bg-orange-100 relative  ">
@@ -140,11 +140,7 @@ const Kontakt = () => {
 
         {/* <ContactUs /> */}
 
-        <div className="py-2 -mt-4 -mb-1  relative  bg-green-bg-soft ">
-            <div className="px-8">
-                <DropOm />
-            </div>
-        </div>
+     
 
 
 
